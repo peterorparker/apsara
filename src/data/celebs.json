@@ -8,10 +8,10 @@
     "Neha Sharma": 23,
     "Kiara Advani": 22,
     "Riya Sen": 18,
-    "Nushrat Bharucha": 18,
     "Kajal Aggarwal": 17,
-    "Ileana D'Cruz": 17,
+    "Nushrat Bharucha": 17,
     "Anushka Sharma": 16,
+    "Ileana D'Cruz": 16,
     "Aditi Rao Hydari": 14,
     "Tara Sutaria": 13,
     "Rakul Preet Singh": 13,
@@ -23,7 +23,7 @@
     "Aditi Vats": 11,
     "Sara Ali Khan": 10,
     "Dhvani Bhanushali": 10,
-    "Raima Sen": 10,
+    "Raima Sen": 9,
     "Samantha": 8,
     "Sandeepa Dhar": 8,
     "Sonam Kapoor": 7,
@@ -40,7 +40,6 @@
     "Shriya Saran": 5,
     "Malavika Mohanan": 4,
     "Ruhani Sharma": 4,
-    "Esha Gupta": 4,
     "Deepika Padukone": 4,
     "Pragya Jaiswal": 4,
     "Parineeti Chopra": 4,
@@ -53,6 +52,7 @@
     "Tridha Choudhury": 3,
     "Neha Malik": 2,
     "Malaika Arora": 2,
+    "Esha Gupta": 2,
     "Amy Aela": 2,
     "Amyra Dastur": 2,
     "Karishma Tanna": 2,
@@ -191,7 +191,6 @@
       "celebs/Ileana D'Cruz/l8godwa8yc671.webp",
       "celebs/Ileana D'Cruz/g2752kmv8ki61.webp",
       "celebs/Ileana D'Cruz/0b180c78edcac1af6bfe7bf73e64b7d2.webp",
-      "celebs/Ileana D'Cruz/1632494672_ileana-dcruz.webp",
       "celebs/Ileana D'Cruz/EnBnGzJVgAIl4cr.jpg large.webp"
     ],
     "Malaika Arora": [
@@ -341,8 +340,7 @@
       "celebs/Raima Sen/tumblr_e90c736a5e037dbd6339c449ef5c7b68_0cb776a9_2048.webp",
       "celebs/Raima Sen/1dh0rohjwm171.webp",
       "celebs/Raima Sen/2a69fcadcf4182e2ca2ebb3c6843a6cd.webp",
-      "celebs/Raima Sen/n6ussaoyig471.webp",
-      "celebs/Raima Sen/7rgulffhwmd51.webp"
+      "celebs/Raima Sen/n6ussaoyig471.webp"
     ],
     "Kareena Kapoor": [
       "celebs/Kareena Kapoor/X7bI73-oxjelBCOMdxIk70s3-Sr8VD_xUlF4SkIZUiI.webp"
@@ -394,9 +392,7 @@
     ],
     "Esha Gupta": [
       "celebs/Esha Gupta/51777082435_0ccfbf0196_o.webp",
-      "celebs/Esha Gupta/ycvfchatgrg51.webp",
-      "celebs/Esha Gupta/s8wkgsnco5g51.webp",
-      "celebs/Esha Gupta/ibs43kpbxqe51.webp"
+      "celebs/Esha Gupta/ycvfchatgrg51.webp"
     ],
     "Deepika Padukone": [
       "celebs/Deepika Padukone/n4mtzpcnu7071.webp",
@@ -416,7 +412,6 @@
       "celebs/Nushrat Bharucha/8-C0-AA382-3825-4-CEF-A3-FE-CBC8-A3703841.webp",
       "celebs/Nushrat Bharucha/4n2idj27zj251.webp",
       "celebs/Nushrat Bharucha/ZJ3zSakMQbKEg3p7oPDTGqmuBeketn99QBqau7QfrdY.webp",
-      "celebs/Nushrat Bharucha/r_l5UmiL4DGR_ZGIQpuXlI62IjqhTcmo-lHEHOv_ZWc.webp",
       "celebs/Nushrat Bharucha/u1vZF9dK9Flb4XH4jNbNIo2YCBCY0mtAi8flAKLNCq0.webp",
       "celebs/Nushrat Bharucha/_IxNVmwpcUh7GblkQiJfLKdlNjhorO-hq5AW7_T_SSQ.webp",
       "celebs/Nushrat Bharucha/CZn4eIrQLEk5ZPSrVEvbqHEEF7fdn7opZIkTPNe1gnA.webp",

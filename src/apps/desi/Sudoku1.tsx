@@ -14,15 +14,15 @@ function Sudoku1() {
         rows={3}
         columns={3}
         celebs={[
-          "Chitrangada Singh",
+          "Disha Patani",
           "Nushrat Bharucha",
-          "Katrina Kaif",
+          "Sara Ali Khan",
           "Ileana D'Cruz",
           "Raima Sen",
-          "Vaani Kapoor",
-          "Karishma Tanna",
-          "Esha Gupta",
-          "Priyanka Chopra",
+          "Alia Bhatt",
+          "Ananya Panday",
+          "Kiara Advani",
+          "Anushka Sharma",
         ]}
         height={300}
         choiceHandler={sudoku3x3}
