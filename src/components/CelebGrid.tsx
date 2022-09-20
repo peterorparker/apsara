@@ -4,24 +4,27 @@ import CelebCard from "./CelebCard";
 
 const spacing = 1;
 
-export function sudoku3x3(
-  row: number,
-  column: number,
-  disabled: boolean[][],
-  selected: boolean[][]
-) {
-  let dummy = disabled.slice();
+function disableFor(disabled: boolean[][], row: number, column: number) {
   for (let i = 0; i < disabled.length; i++) {
     for (let j = 0; j < disabled[i].length; j++) {
-      console.log(i, j, dummy[i][j], selected[i][j]);
       if (i === row || j === column) {
         if (!(i === row && j === column)) {
-          dummy[i][j] = selected[row][column];
+          disabled[i][j] = true;
         }
       }
     }
   }
-  return dummy;
+}
+export function sudoku3x3(selected: boolean[][]) {
+  let disabled = Array.from(Array(selected.length), () =>
+    Array(selected[0].length).fill(false)
+  );
+  for (let i = 0; i < selected.length; i++) {
+    for (let j = 0; j < selected[i].length; j++) {
+      if (selected[i][j]) disableFor(disabled, i, j);
+    }
+  }
+  return disabled;
 }
 
 function CelebGrid(props: {
@@ -45,7 +48,7 @@ function CelebGrid(props: {
     setSelected(dummy);
 
     if (props.choiceHandler != null) {
-      dummy = props.choiceHandler(row, column, disabled, selected);
+      dummy = props.choiceHandler(selected);
       setDisabled(dummy);
     }
   }
