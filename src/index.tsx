@@ -8,7 +8,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <img src="celebs/Chitrangada%20Singh/qvjpvh7zgfg51.webp"></img>
     <BrowserRouter basename="/">
       <App />
     </BrowserRouter>
