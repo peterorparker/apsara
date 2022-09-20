@@ -1,0 +1,7 @@
+.celeb-card-action:disabled {
+  filter: grayscale(80);
+}
+
+.celeb-card-selected {
+  background-color: #019875;
+}

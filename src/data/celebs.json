@@ -1,0 +1,849 @@
+{
+  "counts": {
+    "Pooja Hegde": 34,
+    "Disha Patani": 27,
+    "Mukti Mohan": 27,
+    "Ananya Panday": 26,
+    "Kriti Sanon": 26,
+    "Neha Sharma": 23,
+    "Kiara Advani": 22,
+    "Riya Sen": 18,
+    "Nushrat Bharucha": 18,
+    "Kajal Aggarwal": 17,
+    "Ileana D'Cruz": 17,
+    "Anushka Sharma": 16,
+    "Aditi Rao Hydari": 14,
+    "Tara Sutaria": 13,
+    "Rakul Preet Singh": 13,
+    "Yami Gautam": 12,
+    "Anaika Soti": 12,
+    "Shirley Setia": 12,
+    "Shruti Hassan": 11,
+    "Jacqueline Fernandez": 11,
+    "Aditi Vats": 11,
+    "Sara Ali Khan": 10,
+    "Dhvani Bhanushali": 10,
+    "Raima Sen": 10,
+    "Samantha": 8,
+    "Sandeepa Dhar": 8,
+    "Sonam Kapoor": 7,
+    "Radhika Madan": 7,
+    "Alia Bhatt": 7,
+    "Anushka Shetty": 7,
+    "Malvika Sharma": 6,
+    "Mrunal Thakur": 6,
+    "Rhea Chakraborty": 6,
+    "Priyanka Jawalkar": 6,
+    "Tamanna": 6,
+    "Nargis Fakhri": 5,
+    "Nidhhi Agarwal": 5,
+    "Shriya Saran": 5,
+    "Malavika Mohanan": 4,
+    "Ruhani Sharma": 4,
+    "Esha Gupta": 4,
+    "Deepika Padukone": 4,
+    "Pragya Jaiswal": 4,
+    "Parineeti Chopra": 4,
+    "Sonal Chauhan": 4,
+    "Radhika Seth": 4,
+    "Raashi Khanna": 4,
+    "Kriti Kharbanda": 4,
+    "Simrat Kaur": 3,
+    "Naina Ganguly": 3,
+    "Tridha Choudhury": 3,
+    "Neha Malik": 2,
+    "Malaika Arora": 2,
+    "Amy Aela": 2,
+    "Amyra Dastur": 2,
+    "Karishma Tanna": 2,
+    "Shraddha Kapoor": 2,
+    "Tapsee Pannu": 2,
+    "Harshita Gaur": 2,
+    "Sanya Malhotra": 2,
+    "Catherine Tresa": 2,
+    "Sanjana Sanghi": 1,
+    "Anushka Sen": 1,
+    "Shakti Mohan": 1,
+    "Rashmika Mandanna": 1,
+    "Ritu Varma": 1,
+    "Sakshi Malik": 1,
+    "Mandana Karimi": 1,
+    "Blank": 1,
+    "Katrina Kaif": 1,
+    "Kareena Kapoor": 1,
+    "Jonita Gandhi": 1,
+    "Hina Khan": 1,
+    "Jasmin Bhasin": 1,
+    "Shraddha Srinath": 1,
+    "Nora Fatehi": 1,
+    "Fatima Sana Shaikh": 1,
+    "Aakanksha Singh": 1,
+    "Lisa Haydon": 1,
+    "Vaani Kapoor": 1,
+    "Sanjeeda Sheikh": 1,
+    "Chitrangada Singh": 1,
+    "Priyanka Chopra": 1,
+    "Manushi Chhillar": 1
+  },
+  "files": {
+    "Sanjana Sanghi": [
+      "celebs/Sanjana Sanghi/ysM9_9BRUq2o5VdxL9WXixF5lBuZhgm5JIOl18NWTuo.webp"
+    ],
+    "Neha Malik": [
+      "celebs/Neha Malik/hw-34QU7Limb7FNXNP_rLZlFKr84LU2mESZI7akQBvw.webp",
+      "celebs/Neha Malik/HasNVs_F6gyatWisw06wRsj57y3jFMF4PvTn9U-3XCs.webp"
+    ],
+    "Malvika Sharma": [
+      "celebs/Malvika Sharma/ymwo5trp84x61.webp",
+      "celebs/Malvika Sharma/Malu-S.webp",
+      "celebs/Malvika Sharma/Malvika-Sharma-Photoshoot-TamilNext_photos_v2_faces_x4.webp",
+      "celebs/Malvika Sharma/FBWI8iUVkA0wb-b.webp",
+      "celebs/Malvika Sharma/actress-malvika-sharma-photoshoot-images-1.webp",
+      "celebs/Malvika Sharma/actress-malvika-sharma-images-q9-fashion-studio-launch-1b6d441.webp"
+    ],
+    "Anushka Sen": [
+      "celebs/Anushka Sen/67d442137da4ebd127404aca0a02f3da.webp"
+    ],
+    "Simrat Kaur": [
+      "celebs/Simrat Kaur/ErRare_VgAA9Usc.webp",
+      "celebs/Simrat Kaur/8a8c0775167f7c54091d185aea63867f.webp",
+      "celebs/Simrat Kaur/11594119611vnp.webp"
+    ],
+    "Shakti Mohan": [
+      "celebs/Shakti Mohan/gmsztrk5dm851.webp"
+    ],
+    "Rashmika Mandanna": [
+      "celebs/Rashmika Mandanna/Lw_3JE2YhPVMnRXS8RmvxauXGcLxTYD-fPRyWGYv7us.webp"
+    ],
+    "Kajal Aggarwal": [
+      "celebs/Kajal Aggarwal/1b3530c3013e141b3cc15e013b20c12a.webp",
+      "celebs/Kajal Aggarwal/ucv2keff6rh51.webp",
+      "celebs/Kajal Aggarwal/kajal-aggarwal-kavacham-trailer10.webp",
+      "celebs/Kajal Aggarwal/DpoVRisUwAAPuY-.jpg%3alarge.webp",
+      "celebs/Kajal Aggarwal/1j7mdj906u751.webp",
+      "celebs/Kajal Aggarwal/xr6b3dxy2bp51.webp",
+      "celebs/Kajal Aggarwal/i3wjxiea6t551.webp",
+      "celebs/Kajal Aggarwal/5c0647ba01a5e.webp",
+      "celebs/Kajal Aggarwal/Kajal-Aggarwal-new-hot-pics-4.webp",
+      "celebs/Kajal Aggarwal/1oBuufE.webp",
+      "celebs/Kajal Aggarwal/kajal-agarwalhd-wallpapers-desktop-background-android-iphone-1080p-4k-xhduo.webp",
+      "celebs/Kajal Aggarwal/0td77cv44g551.webp",
+      "celebs/Kajal Aggarwal/DeOHBp4V0AA8Dsp.jpg%3alarge.webp",
+      "celebs/Kajal Aggarwal/Kajal-KA-13.webp",
+      "celebs/Kajal Aggarwal/D8ELZ5CU0AA--i6.jpg large.webp",
+      "celebs/Kajal Aggarwal/EEO3sWRVUAAJ59N.jpg large.webp",
+      "celebs/Kajal Aggarwal/aojhy.webp"
+    ],
+    "Ritu Varma": [
+      "celebs/Ritu Varma/2v3gd1x519251.webp"
+    ],
+    "Anushka Sharma": [
+      "celebs/Anushka Sharma/9szw017lr1551.webp",
+      "celebs/Anushka Sharma/Anushka-sharma-4016x6016.webp",
+      "celebs/Anushka Sharma/wp5253141.webp",
+      "celebs/Anushka Sharma/4suzxzyho2b51.webp",
+      "celebs/Anushka Sharma/mppmdut22kv51.webp",
+      "celebs/Anushka Sharma/cf6fd1a9b5054f8ff8980746bac29a18.webp",
+      "celebs/Anushka Sharma/27beachbod1.webp",
+      "celebs/Anushka Sharma/aev4nlbgj8zhxkbb.D.0.Anushka-Sharma-posing-at-the-unveiling-of-INDIA--S-MOST-BEAUTIFUL-WOMEN-issue-by-Femina-in-Mumbai--3-.webp",
+      "celebs/Anushka Sharma/2qpzxgsran371.webp",
+      "celebs/Anushka Sharma/Anushka-S-2-WM.webp",
+      "celebs/Anushka Sharma/Anushka.webp",
+      "celebs/Anushka Sharma/DY4uNTWX4Ac9lIC.webp",
+      "celebs/Anushka Sharma/nvnwr16yap251.webp",
+      "celebs/Anushka Sharma/npot3r1kbo191.webp",
+      "celebs/Anushka Sharma/Anushka-S-1-WM.webp",
+      "celebs/Anushka Sharma/105192-anushka-sharma-photo-bollywood-4k.webp"
+    ],
+    "Malavika Mohanan": [
+      "celebs/Malavika Mohanan/s766xwwf0zr41.webp",
+      "celebs/Malavika Mohanan/iqenijswx2y41.webp",
+      "celebs/Malavika Mohanan/hgel2so1esu41.webp",
+      "celebs/Malavika Mohanan/gs3kjiir0q651.webp"
+    ],
+    "Mrunal Thakur": [
+      "celebs/Mrunal Thakur/KEJgfkfGriAFOG23YJHkrA70OkNYazieZrDV2y4Y1ps.webp",
+      "celebs/Mrunal Thakur/r1j7fjmc2qu71.webp",
+      "celebs/Mrunal Thakur/NlcqtqrsANk-HdLh5ttcVUE2uG57CE-DPT_PQtTH1I8.webp",
+      "celebs/Mrunal Thakur/g1r9o8f0fou71.webp",
+      "celebs/Mrunal Thakur/E8-A22-FC0-6283-42-CA-A649-91262-A12-B756.webp",
+      "celebs/Mrunal Thakur/PpJT_a1KbXsSrrUp2uZ8olzmrywApKNYsCQeyZGgdxE.webp"
+    ],
+    "Sakshi Malik": [
+      "celebs/Sakshi Malik/SakshiM.webp"
+    ],
+    "Mandana Karimi": [
+      "celebs/Mandana Karimi/l3s8ppbfez951.webp"
+    ],
+    "Ileana D'Cruz": [
+      "celebs/Ileana D'Cruz/ileana-7.webp",
+      "celebs/Ileana D'Cruz/lnbf08nnrcz71.webp",
+      "celebs/Ileana D'Cruz/4-44449_beautiful-heroine-wallpaper-image-collections-of-ileana-d.webp",
+      "celebs/Ileana D'Cruz/39575485_253004582087945_8096739455836094464_n.webp",
+      "celebs/Ileana D'Cruz/ykOU7vy.webp",
+      "celebs/Ileana D'Cruz/ileana-6.webp",
+      "celebs/Ileana D'Cruz/FPzd7O3X0AEk_m8.webp",
+      "celebs/Ileana D'Cruz/66036959_677685096028098_7541461252472664728_n.webp",
+      "celebs/Ileana D'Cruz/7txdh75mkd961.webp",
+      "celebs/Ileana D'Cruz/mrehfrq746skzb8ct61.webp",
+      "celebs/Ileana D'Cruz/kb4rq1fmo4u61.webp",
+      "celebs/Ileana D'Cruz/Ileana-DCruz.webp",
+      "celebs/Ileana D'Cruz/l8godwa8yc671.webp",
+      "celebs/Ileana D'Cruz/g2752kmv8ki61.webp",
+      "celebs/Ileana D'Cruz/0b180c78edcac1af6bfe7bf73e64b7d2.webp",
+      "celebs/Ileana D'Cruz/1632494672_ileana-dcruz.webp",
+      "celebs/Ileana D'Cruz/EnBnGzJVgAIl4cr.jpg large.webp"
+    ],
+    "Malaika Arora": [
+      "celebs/Malaika Arora/8krerjdgss951.webp",
+      "celebs/Malaika Arora/4paf34nggt551.webp"
+    ],
+    "Ruhani Sharma": [
+      "celebs/Ruhani Sharma/Ruhani-S-3.webp",
+      "celebs/Ruhani Sharma/LhMOFsCnjAkTq939zSkJUdR04Sgoel9WI3_jxW01Av8.webp",
+      "celebs/Ruhani Sharma/aXCgNyFF8GADtXemp4CURGnu_UooQwiO9rYCYEDqD6c.webp",
+      "celebs/Ruhani Sharma/5be9YRAuSaArnf5hShVh7BKuhuDvSE9sX9aLv7zVs8Q.webp"
+    ],
+    "Sonam Kapoor": [
+      "celebs/Sonam Kapoor/199c3ebc67c692071947c1278fafaea3.webp",
+      "celebs/Sonam Kapoor/wallpapersden.com_beautiful-sonam-kapoor_5120x2880.webp",
+      "celebs/Sonam Kapoor/5bfcf3de966bca723736c3815ee2908e.webp",
+      "celebs/Sonam Kapoor/Actress-Sonam-Kapoor-Stills-8.webp",
+      "celebs/Sonam Kapoor/festival-de-cannes-2017-sonam-kapoor.webp",
+      "celebs/Sonam Kapoor/3c195e88dcdb188f02af220234caba6e.webp",
+      "celebs/Sonam Kapoor/bfbd13434e830adfbeb7c51ef57fedc1.webp"
+    ],
+    "Sara Ali Khan": [
+      "celebs/Sara Ali Khan/frDTbyUu_e8v1u4AzrodZ2eJTXvr_QLD4YYrbYakaek.webp",
+      "celebs/Sara Ali Khan/498506.webp",
+      "celebs/Sara Ali Khan/Sara-AK.webp",
+      "celebs/Sara Ali Khan/39y0tudv8uq71.webp",
+      "celebs/Sara Ali Khan/i7ecaqqzaxu41.webp",
+      "celebs/Sara Ali Khan/11X41C8N1pAi92CLpKdbCeF0L4unEaJmLnUns3q445g.webp",
+      "celebs/Sara Ali Khan/a7zf4ky2wn451.webp",
+      "celebs/Sara Ali Khan/xml0slk3dh251.webp",
+      "celebs/Sara Ali Khan/6965-F511-6-FE5-4353-A5-F4-FBE9-A79-C4-FB3.webp",
+      "celebs/Sara Ali Khan/CTe6W_oLCOB8-lxNSI0oLROyqEu-dVfJV6BUgsTMSGo.webp"
+    ],
+    "Riya Sen": [
+      "celebs/Riya Sen/9rnfselg2x551.webp",
+      "celebs/Riya Sen/yhux4vrhnoz41.webp",
+      "celebs/Riya Sen/riya-sen-3.webp",
+      "celebs/Riya Sen/Riya-Sens-hot-photos.webp",
+      "celebs/Riya Sen/f8ab9ab51c625585f8d211968ecb3435.webp",
+      "celebs/Riya Sen/x72l3hzr1w051.webp",
+      "celebs/Riya Sen/yus1axjhbp651.webp",
+      "celebs/Riya Sen/65289536_194860598170667_2976372107274801815_n.webp",
+      "celebs/Riya Sen/CVimQ4Sj4o0UGAisARRUr3qytzYY25sNH5ngj7zHVpM.webp",
+      "celebs/Riya Sen/8pkl77ldvb551.webp",
+      "celebs/Riya Sen/k86k5on3so351.webp",
+      "celebs/Riya Sen/KhJ6n7pg3qkpzVfD2m29-fz9pcL_Emh5IcfiAFt6QHM.webp",
+      "celebs/Riya Sen/Ria-sen-Hot-pic-4.webp",
+      "celebs/Riya Sen/riya-sen-latest-hot-stills-10.webp",
+      "celebs/Riya Sen/SJqp5mVGzxjaLdsjZP9z2BFbpG21wimyeUmjTOrQzTA.webp",
+      "celebs/Riya Sen/pgMPOa1UqMkOeRMhfwfUqETGN8uJGKcmyEL814k-g4I.webp",
+      "celebs/Riya Sen/22ciz34ecqc41.webp",
+      "celebs/Riya Sen/D8tBP5IUEAA2VLA.jpg large.webp"
+    ],
+    "Blank": [
+      "celebs/Blank/blank.jpg"
+    ],
+    "Radhika Madan": [
+      "celebs/Radhika Madan/xjazampvo7r51.webp",
+      "celebs/Radhika Madan/s3knv1z4i0r71.webp",
+      "celebs/Radhika Madan/EVtdNa_UMAEfFEO.jpg large.webp",
+      "celebs/Radhika Madan/91h1aw4wcnr51.webp",
+      "celebs/Radhika Madan/ys3mehelm2r71.webp",
+      "celebs/Radhika Madan/v4j3ean2zxy41.webp",
+      "celebs/Radhika Madan/Radhika-Madan.webp"
+    ],
+    "Dhvani Bhanushali": [
+      "celebs/Dhvani Bhanushali/Ev8ldCwVgAMbD5-.webp",
+      "celebs/Dhvani Bhanushali/Exts-H1VgAARJ50.webp",
+      "celebs/Dhvani Bhanushali/20200314131657-Dhvani.webp",
+      "celebs/Dhvani Bhanushali/dhvani-bhanushalihd-wallpapers-desktop-background-android-iphone-1080p-4k-zs5xw.webp",
+      "celebs/Dhvani Bhanushali/ER7wJ0mUUAIYJem.jpg large.webp",
+      "celebs/Dhvani Bhanushali/160664664_1169985973447012_374658456956433653_n.webp",
+      "celebs/Dhvani Bhanushali/vvn9pgprcpw81.webp",
+      "celebs/Dhvani Bhanushali/Dhvani-Bhanushali-Exclusive-Picture-scaled-e1599633996643.webp",
+      "celebs/Dhvani Bhanushali/p3vtcb9ckev81.webp",
+      "celebs/Dhvani Bhanushali/The-Rising-Star.webp"
+    ],
+    "Alia Bhatt": [
+      "celebs/Alia Bhatt/riq16js76ly41.webp",
+      "celebs/Alia Bhatt/ssq-qAyXa9cK3-FunhD3iBQLa--K_UG9kgTY7ixm_y4.webp",
+      "celebs/Alia Bhatt/wbupgiktok271.webp",
+      "celebs/Alia Bhatt/c4ledcjxzlt51.webp",
+      "celebs/Alia Bhatt/323673-Alia-Bhatt-8K-iphone-wallpaper.webp",
+      "celebs/Alia Bhatt/0nkmi29hgu551.webp",
+      "celebs/Alia Bhatt/IMG_8623.webp"
+    ],
+    "Samantha": [
+      "celebs/Samantha/pdjb1bef51j51.webp",
+      "celebs/Samantha/ea9a66101074125.5f16de75eeb27.webp",
+      "celebs/Samantha/a7dd3c101074125.5f16de75efdb1.webp",
+      "celebs/Samantha/wopx1vh6fwo51.webp",
+      "celebs/Samantha/m5eaqj7vzp451.webp",
+      "celebs/Samantha/Samantha Akkineni.webp",
+      "celebs/Samantha/Pic-Talk-Sexy-Sam-shows-off-her-curves-1200x1471.webp",
+      "celebs/Samantha/qied1cbsn0651.webp"
+    ],
+    "Naina Ganguly": [
+      "celebs/Naina Ganguly/x35c6vwmdv051.webp",
+      "celebs/Naina Ganguly/62oj51e7id251.webp",
+      "celebs/Naina Ganguly/2lkvzu1zfp251.webp"
+    ],
+    "Katrina Kaif": [
+      "celebs/Katrina Kaif/7powk4lhzet51.webp"
+    ],
+    "Pooja Hegde": [
+      "celebs/Pooja Hegde/Kz1DCmKuZeR54m9rsk-76b7TTRvdQ4amE-no79wQmoU.webp",
+      "celebs/Pooja Hegde/2k9teutn4n051.webp",
+      "celebs/Pooja Hegde/gf195vcz8yr41.webp",
+      "celebs/Pooja Hegde/rcyhq9yt9o371.webp",
+      "celebs/Pooja Hegde/du7azp8ym1651.webp",
+      "celebs/Pooja Hegde/_6R9L4oTB0UAOH0USJPo5zNGPETk8eD5_87wBiIgnaA.webp",
+      "celebs/Pooja Hegde/Pooja_H.webp",
+      "celebs/Pooja Hegde/rkVqeILB2twP7XauWXk1tan_Wog3irgUhwuBdZn_FUo.webp",
+      "celebs/Pooja Hegde/KK772LDIGVTiPDPVCYgHAJo2ykuvPkqZHE77XuvCZQ0.webp",
+      "celebs/Pooja Hegde/26n7ff34jbl51.webp",
+      "celebs/Pooja Hegde/TiRVGanXQhnhehMHvh1wtXZ5xoROEYph2VTXNlDM89c.webp",
+      "celebs/Pooja Hegde/LXuTyWsJ8jMO6kCT2vjSHPyrd2Bp5zXD4PB7hawQ2HM.webp",
+      "celebs/Pooja Hegde/hRxWNI7HoLdH3Mzb2CrID8GlF0w2UzFFxMfVUMWq6dk.webp",
+      "celebs/Pooja Hegde/xw9r3q9ojq151.webp",
+      "celebs/Pooja Hegde/ZKGNgAWH-8y4Hlh1ox_sYlX2PlyZ847crbgylEu9lGI.webp",
+      "celebs/Pooja Hegde/uz926zcel9051.webp",
+      "celebs/Pooja Hegde/P1YighDHRxhc2VDN4UGZpynrIB9uT64cVuNU3N0icxA.webp",
+      "celebs/Pooja Hegde/pooja-hegde-black-slip-dress1.webp",
+      "celebs/Pooja Hegde/GIvypvHwYpWi1CF831OItXZbrVCRVfdpc0P_6i208KM.webp",
+      "celebs/Pooja Hegde/b3db310572f74aceee7c72de004e65c4.webp",
+      "celebs/Pooja Hegde/DXV7MoZW0AE9Dw9.jpg%3alarge.webp",
+      "celebs/Pooja Hegde/sxk5cco3ml651.webp",
+      "celebs/Pooja Hegde/py80ml1v1ru61.webp",
+      "celebs/Pooja Hegde/24b0d36823f4e575f42102fba9d278a4.webp",
+      "celebs/Pooja Hegde/vAIyYtXVgw6ufMfTrWlkHM7NYrI9PIrRMpyF4aomwak.webp",
+      "celebs/Pooja Hegde/pooja-hegde-model-brunette-long-hair.webp",
+      "celebs/Pooja Hegde/All-Rights-reserved-by-Eshaan-Girri-Photography.webp",
+      "celebs/Pooja Hegde/67971957_158546195204744_7959264787720373617_n.webp",
+      "celebs/Pooja Hegde/aoa578co52y41.webp",
+      "celebs/Pooja Hegde/ZwvGDJIJhmol8UtZOPiN7XasVu8lpAVvoo3SWzdgvt8.webp",
+      "celebs/Pooja Hegde/8rNT8Qwp-YBzQZCKblVJ3g-LrXlVc45oUrovoWkitMM.webp",
+      "celebs/Pooja Hegde/ff20f4c5cec76d2f5a8441f95c1963ae.webp",
+      "celebs/Pooja Hegde/s4cNa3ffjo3GWaBi3x8gSX5c6x_UcU4UOBn4aQfLRfA.webp",
+      "celebs/Pooja Hegde/fq0UY-5o-33iaqBdDfm5hSrR7i6pSz63O0pGkONL3QI.webp"
+    ],
+    "Raima Sen": [
+      "celebs/Raima Sen/vikatan_2020-01_26c84b3c-2caf-458c-bc27-a0c136bf44ff_raima.webp",
+      "celebs/Raima Sen/iqjfsfm3qgb41.webp",
+      "celebs/Raima Sen/9l6tvw3dcxr51.webp",
+      "celebs/Raima Sen/epu81a0hfuk51.webp",
+      "celebs/Raima Sen/BO5jp2tGruj0IV0vH8XDzor7mBG_kVf3rrIXkErYr5c.webp",
+      "celebs/Raima Sen/tumblr_e90c736a5e037dbd6339c449ef5c7b68_0cb776a9_2048.webp",
+      "celebs/Raima Sen/1dh0rohjwm171.webp",
+      "celebs/Raima Sen/2a69fcadcf4182e2ca2ebb3c6843a6cd.webp",
+      "celebs/Raima Sen/n6ussaoyig471.webp",
+      "celebs/Raima Sen/7rgulffhwmd51.webp"
+    ],
+    "Kareena Kapoor": [
+      "celebs/Kareena Kapoor/X7bI73-oxjelBCOMdxIk70s3-Sr8VD_xUlF4SkIZUiI.webp"
+    ],
+    "Nargis Fakhri": [
+      "celebs/Nargis Fakhri/o6oi59rl32851.webp",
+      "celebs/Nargis Fakhri/tumblr_mlsi5tOCOF1s5bbhwo1_1280.webp",
+      "celebs/Nargis Fakhri/tqcw09a08q751.webp",
+      "celebs/Nargis Fakhri/Nargis Fakhri.webp",
+      "celebs/Nargis Fakhri/ceio4ndo55751.webp"
+    ],
+    "Yami Gautam": [
+      "celebs/Yami Gautam/Yami-G.webp",
+      "celebs/Yami Gautam/3qenbza3uc671.webp",
+      "celebs/Yami Gautam/l5o88zseg7g51.webp",
+      "celebs/Yami Gautam/yamigautam_1___BmIplQDnDzn___.webp",
+      "celebs/Yami Gautam/Yami-Gautam.webp",
+      "celebs/Yami Gautam/51281234589_261fcfa0e2_o.webp",
+      "celebs/Yami Gautam/jg7cespk13z41.webp",
+      "celebs/Yami Gautam/i5m8am53a2x51.webp",
+      "celebs/Yami Gautam/6gwpmKiMRv5ZdrbI8Xc_I0En91H06pQnWxBHLUkSV_E.webp",
+      "celebs/Yami Gautam/v8omh4wtrpv41.webp",
+      "celebs/Yami Gautam/q7xnzvpx71i51.webp",
+      "celebs/Yami Gautam/r9n6te7kscj61.webp"
+    ],
+    "Jonita Gandhi": [
+      "celebs/Jonita Gandhi/VA8zF1OgEyjyQ7htDhaSY8MBiHzgVXYCSUHfIur7bmI.webp"
+    ],
+    "Shruti Hassan": [
+      "celebs/Shruti Hassan/Actress-Shruti-Haasan-glam-stills-from-Santosham-Awards-2019-7.webp",
+      "celebs/Shruti Hassan/b3d8962cad9e51eadf42c52df075a29b.webp",
+      "celebs/Shruti Hassan/NlVtMB4AAnAYKRn-eR-lNZ41EOsoOUViecUNpmAnai4.webp",
+      "celebs/Shruti Hassan/Shruti-H.webp",
+      "celebs/Shruti Hassan/XXt94OH7arcUtYLFl4iK4jYUtK-_6raac5Kkc5D1doQ.webp",
+      "celebs/Shruti Hassan/shruti-haasan-5120x2880-actress-heroine-hd-5k-8140.webp",
+      "celebs/Shruti Hassan/shruti-hassan-3-1920x1200.webp",
+      "celebs/Shruti Hassan/ihtskpo2xm751.webp",
+      "celebs/Shruti Hassan/shruti-hassan-photoshoot-to-1920x1200.webp",
+      "celebs/Shruti Hassan/4qhlxwudl5951.webp",
+      "celebs/Shruti Hassan/3e0e39e36592ee4680f75373998ad898.webp"
+    ],
+    "Rhea Chakraborty": [
+      "celebs/Rhea Chakraborty/38qq90xza7b51.webp",
+      "celebs/Rhea Chakraborty/nbkuq3ezib051.webp",
+      "celebs/Rhea Chakraborty/Rhea-Chakraborty.webp",
+      "celebs/Rhea Chakraborty/h43fri7u2g651.webp",
+      "celebs/Rhea Chakraborty/Rhea-Chakraborty (1).webp",
+      "celebs/Rhea Chakraborty/5aoa0xaqkb751.webp"
+    ],
+    "Esha Gupta": [
+      "celebs/Esha Gupta/51777082435_0ccfbf0196_o.webp",
+      "celebs/Esha Gupta/ycvfchatgrg51.webp",
+      "celebs/Esha Gupta/s8wkgsnco5g51.webp",
+      "celebs/Esha Gupta/ibs43kpbxqe51.webp"
+    ],
+    "Deepika Padukone": [
+      "celebs/Deepika Padukone/n4mtzpcnu7071.webp",
+      "celebs/Deepika Padukone/deepika-padukone-bollywood-brunette-girl-4K-240.webp",
+      "celebs/Deepika Padukone/3j92m51tyv451.webp",
+      "celebs/Deepika Padukone/eac4054e1d4d05144383456a27ec7ae2.webp"
+    ],
+    "Amy Aela": [
+      "celebs/Amy Aela/pvrcdvufo2v61.webp",
+      "celebs/Amy Aela/l-164051.webp"
+    ],
+    "Nushrat Bharucha": [
+      "celebs/Nushrat Bharucha/3nh75ergdg161.webp",
+      "celebs/Nushrat Bharucha/32e7ai4hxcn51.webp",
+      "celebs/Nushrat Bharucha/nT9BImGwnTuD7BwwoFm1I8YKEW5gGzND5bp33hGY-HA.webp",
+      "celebs/Nushrat Bharucha/aaf7vlrqch451.webp",
+      "celebs/Nushrat Bharucha/8-C0-AA382-3825-4-CEF-A3-FE-CBC8-A3703841.webp",
+      "celebs/Nushrat Bharucha/4n2idj27zj251.webp",
+      "celebs/Nushrat Bharucha/ZJ3zSakMQbKEg3p7oPDTGqmuBeketn99QBqau7QfrdY.webp",
+      "celebs/Nushrat Bharucha/r_l5UmiL4DGR_ZGIQpuXlI62IjqhTcmo-lHEHOv_ZWc.webp",
+      "celebs/Nushrat Bharucha/u1vZF9dK9Flb4XH4jNbNIo2YCBCY0mtAi8flAKLNCq0.webp",
+      "celebs/Nushrat Bharucha/_IxNVmwpcUh7GblkQiJfLKdlNjhorO-hq5AW7_T_SSQ.webp",
+      "celebs/Nushrat Bharucha/CZn4eIrQLEk5ZPSrVEvbqHEEF7fdn7opZIkTPNe1gnA.webp",
+      "celebs/Nushrat Bharucha/a3nkvwltlts51.webp",
+      "celebs/Nushrat Bharucha/FJpFawtfh9e8RmC1JnteECWCdMX0YVkQ9qM3Vrg1Xcw.webp",
+      "celebs/Nushrat Bharucha/5olC9pz0luIM2Ic_aYG0zWm_ib1cGLtspFnK0CfyXhU.webp",
+      "celebs/Nushrat Bharucha/4edH2Ud2gFIHBPvnKCdEVNjcBkdT41mr3xAZFA_lhO4.webp",
+      "celebs/Nushrat Bharucha/8fz525odck051.webp",
+      "celebs/Nushrat Bharucha/bm3voEpzinmUZlTvDHD5qWFaN6lfB5hy1vRRpPlflnM.webp",
+      "celebs/Nushrat Bharucha/glad0mrilrz51.webp"
+    ],
+    "Anaika Soti": [
+      "celebs/Anaika Soti/thumb-1920-637292.webp",
+      "celebs/Anaika Soti/4k-8k-bollywood-telugu-wallpaper-d34b23ad9d892b35cf561207086bb868.webp",
+      "celebs/Anaika Soti/anaika-wallpaper-f35f37c75eb22734169aea0474ed0ffa.webp",
+      "celebs/Anaika Soti/anaika-soti-heroine-8k-wallpaper-b3dba30d4d390b45af263227a8fb0848.webp",
+      "celebs/Anaika Soti/wallpaperflare.com_wallpaper(1).webp",
+      "celebs/Anaika Soti/anaika-images-8-wallpaper-7c1bf8bbdf93d3c051c789c37aa1842b.webp",
+      "celebs/Anaika Soti/wallpaperflare.com_wallpaper.webp",
+      "celebs/Anaika Soti/xlpsq-CH2XTXF7KTG-Full-Image_GalleryBackground-en-US-1572344961861._UR1920,1080_RI_.webp",
+      "celebs/Anaika Soti/anaika-wallpaper-418358cc3eb33cd09a7b340927aa0966.webp",
+      "celebs/Anaika Soti/104075-anaika-soti-beauty-bollywood-4k.webp",
+      "celebs/Anaika Soti/832q3b0ydcx41.webp",
+      "celebs/Anaika Soti/anaika-wallpaper-833f9747bec20724567aaa14644d4f7a.webp"
+    ],
+    "Hina Khan": [
+      "celebs/Hina Khan/Hina-K.webp"
+    ],
+    "Pragya Jaiswal": [
+      "celebs/Pragya Jaiswal/zhgkwq52xya41.webp",
+      "celebs/Pragya Jaiswal/Dqqaa9XWwAI2h5X.jpg large.webp",
+      "celebs/Pragya Jaiswal/0lmbzu1sgdx51.webp",
+      "celebs/Pragya Jaiswal/adfa3251d4e511ed82b174e22fdbe122.webp"
+    ],
+    "Jasmin Bhasin": [
+      "celebs/Jasmin Bhasin/z7gnmdi29y871.webp"
+    ],
+    "Shraddha Srinath": [
+      "celebs/Shraddha Srinath/w1bo97rcxn551.webp"
+    ],
+    "Nora Fatehi": [
+      "celebs/Nora Fatehi/yNiuu6BsiteCUU1rX8KNgGx-YhlpOFUEgRuMeqbW0dA.webp"
+    ],
+    "Tridha Choudhury": [
+      "celebs/Tridha Choudhury/g8c81lbaa0951.webp",
+      "celebs/Tridha Choudhury/ou0t6fv9j3i71.webp",
+      "celebs/Tridha Choudhury/8mttjwsnli581.webp"
+    ],
+    "Anushka Shetty": [
+      "celebs/Anushka Shetty/5.webp",
+      "celebs/Anushka Shetty/36.webp",
+      "celebs/Anushka Shetty/anushka-shetty-051114.webp",
+      "celebs/Anushka Shetty/Anushka-shetty-hot-new-photo-wallpaper-free.webp",
+      "celebs/Anushka Shetty/47.webp",
+      "celebs/Anushka Shetty/4.webp",
+      "celebs/Anushka Shetty/46.webp"
+    ],
+    "Parineeti Chopra": [
+      "celebs/Parineeti Chopra/7htwumusp7751.webp",
+      "celebs/Parineeti Chopra/U0UDRmnAYxZNBxeVS.webp",
+      "celebs/Parineeti Chopra/wj41evsg4e651.webp",
+      "celebs/Parineeti Chopra/vbxlfqw0jge51.webp"
+    ],
+    "Jacqueline Fernandez": [
+      "celebs/Jacqueline Fernandez/1YddtfcixySphVRQ8S-Qa1uP5PXrj6BHYzDCfI7fRxc.webp",
+      "celebs/Jacqueline Fernandez/qprumum8zia51.webp",
+      "celebs/Jacqueline Fernandez/a7wgj2irnlj61.webp",
+      "celebs/Jacqueline Fernandez/k95c3g1r7c051.webp",
+      "celebs/Jacqueline Fernandez/u7nzohw761951.webp",
+      "celebs/Jacqueline Fernandez/cvwfovttawi51.webp",
+      "celebs/Jacqueline Fernandez/3u4gdgar5sm61.webp",
+      "celebs/Jacqueline Fernandez/ii6vzxvuhh551.webp",
+      "celebs/Jacqueline Fernandez/y6kxtu0b3cf51.webp",
+      "celebs/Jacqueline Fernandez/hkNkyVCuTSPQ8TG6FaW3r6WACjsOoTMlePD2VTfGdz0.webp",
+      "celebs/Jacqueline Fernandez/TLCNAg5fMzP4S_igTpHrW857HXiEQnfHkq5hkdELVFA.webp"
+    ],
+    "Priyanka Jawalkar": [
+      "celebs/Priyanka Jawalkar/4ntk6vbaba351.webp",
+      "celebs/Priyanka Jawalkar/73324145_264583871167710_389169918625836451_n.webp",
+      "celebs/Priyanka Jawalkar/y6pbclgxmo551.webp",
+      "celebs/Priyanka Jawalkar/zyo62f9im1651.webp",
+      "celebs/Priyanka Jawalkar/DyisDXTV4AE2Bdk.webp",
+      "celebs/Priyanka Jawalkar/ugt2imf4nj251.webp"
+    ],
+    "Tara Sutaria": [
+      "celebs/Tara Sutaria/4cr9a6j53bo61.webp",
+      "celebs/Tara Sutaria/04jvoh4395g71.webp",
+      "celebs/Tara Sutaria/-nNd60GX7lgAggImlwzkt3P8IuQLgjrjn0CIkh126Ks.webp",
+      "celebs/Tara Sutaria/xE-JjxCEg0KK6A9YT7HoTNc64BSmG_0WKcH8hh30NGM.webp",
+      "celebs/Tara Sutaria/m2figx6t11j61.webp",
+      "celebs/Tara Sutaria/arezlqfubcb61.webp",
+      "celebs/Tara Sutaria/mi6nn9x32z271.webp",
+      "celebs/Tara Sutaria/2f919f5bx2351.webp",
+      "celebs/Tara Sutaria/7-tfcmzEgcbddbi.webp",
+      "celebs/Tara Sutaria/p6rt53jqwic61.webp",
+      "celebs/Tara Sutaria/s37mlhcuxxz51.webp",
+      "celebs/Tara Sutaria/Tara-S-1-WM.webp",
+      "celebs/Tara Sutaria/rb1ubbc47mn61.webp"
+    ],
+    "Amyra Dastur": [
+      "celebs/Amyra Dastur/Amyra-Dastur.webp",
+      "celebs/Amyra Dastur/01KH_3-pHhELJs7e1hgUW_310P_vvUg0lqz7q_VVyd8.webp"
+    ],
+    "Fatima Sana Shaikh": [
+      "celebs/Fatima Sana Shaikh/bgnxucruj2751.webp"
+    ],
+    "Aakanksha Singh": [
+      "celebs/Aakanksha Singh/Gorgeous Indian Girl Aakanksha Singh Without Makeup Oily Face Close Up (9).webp"
+    ],
+    "Disha Patani": [
+      "celebs/Disha Patani/jmf7-6AYR66aJ07ihShp2F70rzZvqHu2nn1zrYXbdUI.webp",
+      "celebs/Disha Patani/64216320_1258379494330942_3272630366342210912_n.webp",
+      "celebs/Disha Patani/cdveo60vgw051.webp",
+      "celebs/Disha Patani/4u1de94qqqv41.webp",
+      "celebs/Disha Patani/05a9tm56q4051.webp",
+      "celebs/Disha Patani/81344-A1-F-A18-C-4736-9-D95-43-A11-BF948-BA.webp",
+      "celebs/Disha Patani/qbmku2iimcz41.webp",
+      "celebs/Disha Patani/ms24mk1jnlv41.webp",
+      "celebs/Disha Patani/dvrd718z1m451.webp",
+      "celebs/Disha Patani/692j0jxtgqy41.webp",
+      "celebs/Disha Patani/disha-patani-maxim-india-nick-saglimbeni-slickforce-denim-sexy-6.webp",
+      "celebs/Disha Patani/775q1s78kxy51.webp",
+      "celebs/Disha Patani/he89bwdlwf361.webp",
+      "celebs/Disha Patani/lukrk3mdllv41.webp",
+      "celebs/Disha Patani/edc737ecfc80e7f8124690ec1684bb14.webp",
+      "celebs/Disha Patani/ip7qle3mvy191.webp",
+      "celebs/Disha Patani/bdpqgfqra1251.webp",
+      "celebs/Disha Patani/04c898c6724a7c2fd29911d700017cc1.webp",
+      "celebs/Disha Patani/qgwr07x95b051.webp",
+      "celebs/Disha Patani/v2t1cvoncgu41.webp",
+      "celebs/Disha Patani/wallpapersden.com_new-disha-patani-2020_2048x2732.webp",
+      "celebs/Disha Patani/EOQiSvDNuQAZNttQ0fmE_8SlHYFE4d6wWpQqLN75NaQ.webp",
+      "celebs/Disha Patani/9n89dlu0wsu41.webp",
+      "celebs/Disha Patani/Disha-P-2-WM.webp",
+      "celebs/Disha Patani/y8mt5vn5wn451.webp",
+      "celebs/Disha Patani/nfUD_cJXGKwjU5ZZAKFXYnVCoX11RqyTGo_GYujlYHQ.webp",
+      "celebs/Disha Patani/x7SJJgwdZmeoNOIKqnEgX-MS1AxGtJdH0jVgQKW4FzQ.webp"
+    ],
+    "Sonal Chauhan": [
+      "celebs/Sonal Chauhan/Sonal.webp",
+      "celebs/Sonal Chauhan/66vrxmbb4lg51.webp",
+      "celebs/Sonal Chauhan/21kur03h4he71.webp",
+      "celebs/Sonal Chauhan/ZxZhVpeBSi8KtfPg1cwD2h5KlQmkx9YChLnKIwzga5I.webp"
+    ],
+    "Neha Sharma": [
+      "celebs/Neha Sharma/XTnJyjCY7n8eWnOygti5OJ1SHgNIlUt4sBnN8vBunZA.webp",
+      "celebs/Neha Sharma/AYWuQA1gQf7xvPa9p6yKq3AiWsNjbZnLiMEVdpfW9bE.webp",
+      "celebs/Neha Sharma/Neha-S-2.webp",
+      "celebs/Neha Sharma/y3mm86olpf151.webp",
+      "celebs/Neha Sharma/8dc16kobktg41.webp",
+      "celebs/Neha Sharma/94cqxwifku251.webp",
+      "celebs/Neha Sharma/DtB3dmwV4AA03m-.jpg large.webp",
+      "celebs/Neha Sharma/WUC6kNuE_fTM7DRmJvXNbURTt4aHUUonf0zXGa-QkFw.webp",
+      "celebs/Neha Sharma/EUBN42mU0AAtCpC.jpg large.webp",
+      "celebs/Neha Sharma/cd2pwekh1u751.webp",
+      "celebs/Neha Sharma/Dj_iO0yW0AA2_D-large.webp",
+      "celebs/Neha Sharma/51628397529_0f05d3ccee_o.webp",
+      "celebs/Neha Sharma/neha-sharma-1.webp",
+      "celebs/Neha Sharma/Actress-Neha-Sharma-Hot-and-Bold-Stills-in-Black-.webp",
+      "celebs/Neha Sharma/eouq9chqsid41.webp",
+      "celebs/Neha Sharma/b8a404a55dc719c20518182d3fa4e3d0.webp",
+      "celebs/Neha Sharma/n1E2Wk5svsOQaB_LkQqefMt1H4eYuvgGXiYpHADKygI.webp",
+      "celebs/Neha Sharma/cbd9b1180124d907ebe0f467d1dffe9e.webp",
+      "celebs/Neha Sharma/70477115_137144657643985_1289257949788202123_n.webp",
+      "celebs/Neha Sharma/xh1vxeni2y051.webp",
+      "celebs/Neha Sharma/68or5xungei41.webp",
+      "celebs/Neha Sharma/841c516ddf40c8f7ec67f7b57fba132f.webp",
+      "celebs/Neha Sharma/FXmthxG.webp"
+    ],
+    "Kiara Advani": [
+      "celebs/Kiara Advani/o6me4E_dqSS2ExuYxtwZ5yfWzyc0aewiNV5kErmx_Oo.webp",
+      "celebs/Kiara Advani/I8lJMy1BNjUTQMCI4OFxH8bV6-EXxIcqceOGNMUbsGk.webp",
+      "celebs/Kiara Advani/3oHz_FJOZw3o3UPQH22DtaH1eSRVAGyQh_49ThKCMTo.webp",
+      "celebs/Kiara Advani/KA.webp",
+      "celebs/Kiara Advani/fq2honith0v41.webp",
+      "celebs/Kiara Advani/g7stfadyweq71.webp",
+      "celebs/Kiara Advani/Kiara-Advani-at-filmfare-glamour-and-style-awards-2019-1-1200x1500.webp",
+      "celebs/Kiara Advani/6du5quljspv41.webp",
+      "celebs/Kiara Advani/ygTp7QTlDiZ6u-nI9xYGmpID4sihBHaPtoCKDgFfv24.webp",
+      "celebs/Kiara Advani/qyn4a2f378a51.webp",
+      "celebs/Kiara Advani/1gzXhiSqIkZXgvowO9bfLEL7TrVlTDUnM-IQG32efHM.webp",
+      "celebs/Kiara Advani/b2ea21nmox161.webp",
+      "celebs/Kiara Advani/r3smzelhu1051.webp",
+      "celebs/Kiara Advani/xsc1vy2e6w271.webp",
+      "celebs/Kiara Advani/LXDEai9JqZF6dRoFE9X8bvUoh-YNgaxSQQHatjwIbpQ.webp",
+      "celebs/Kiara Advani/image_widget_408ct126bv991.webp",
+      "celebs/Kiara Advani/N6wIl_6AhGN4Qa_q024s1TnEOC48R3a8beaE_6YzHq4.webp",
+      "celebs/Kiara Advani/bj8survOsNIeBW4Hpmj7D2RXIeQX6h5_TfigzLfSHq4.webp",
+      "celebs/Kiara Advani/q25n0oh9bp251.webp",
+      "celebs/Kiara Advani/mWBhXOpdPYyyWuzItH4LtX0mSEwuTHQnE5D9tUfnfHQ.webp",
+      "celebs/Kiara Advani/bhUNMVnYvwByHv0sJNFSG_tU2C_AE9Tar-84NTju3f4.webp",
+      "celebs/Kiara Advani/pmnhviRKsq9V_kCuXfgMyufUu4h16Zi66Pi6m8r6NuI.webp"
+    ],
+    "Lisa Haydon": [
+      "celebs/Lisa Haydon/07j2fn4z0t451.webp"
+    ],
+    "Karishma Tanna": [
+      "celebs/Karishma Tanna/karishmaktanna-20200911-0001.webp",
+      "celebs/Karishma Tanna/jw93o9wbqxd51.webp"
+    ],
+    "Shraddha Kapoor": [
+      "celebs/Shraddha Kapoor/l4h00vxjbw451.webp",
+      "celebs/Shraddha Kapoor/9l7kf6os5p451.webp"
+    ],
+    "Mukti Mohan": [
+      "celebs/Mukti Mohan/3otwgzz2pr261.webp",
+      "celebs/Mukti Mohan/ckp87pb586871.webp",
+      "celebs/Mukti Mohan/607kptis80d81.webp",
+      "celebs/Mukti Mohan/E7JqrXRVEAIgBAx.jpg large.webp",
+      "celebs/Mukti Mohan/mukti-mohanhd-wallpapers-desktop-background-android-iphone-1080p-4k-fy43e-1080x1349.webp",
+      "celebs/Mukti Mohan/1572953078_mu.webp",
+      "celebs/Mukti Mohan/Mukti-Mohan-28.webp",
+      "celebs/Mukti Mohan/xhtmfndz6hg71.webp",
+      "celebs/Mukti Mohan/g6l0bpzo76u71.webp",
+      "celebs/Mukti Mohan/FAIcpYxUUAkjqdH.webp",
+      "celebs/Mukti Mohan/MM.webp",
+      "celebs/Mukti Mohan/yc1ij0u62pb71.webp",
+      "celebs/Mukti Mohan/EGWxmwVVAAIGYMv.jpg large.webp",
+      "celebs/Mukti Mohan/wdlk55wpjhg41.webp",
+      "celebs/Mukti Mohan/5bd0e5a6d0b3615da4691b8b2b87e10c.webp",
+      "celebs/Mukti Mohan/ihe0mp7p29p71.webp",
+      "celebs/Mukti Mohan/FG5rMpEVgAEgRPc.webp",
+      "celebs/Mukti Mohan/7289053.webp",
+      "celebs/Mukti Mohan/mukti-mohanhd-wallpapers-desktop-background-android-iphone-1080p-4k-rdnwm-1080x1349.webp",
+      "celebs/Mukti Mohan/d367ae8b47f10cb68739f1eea02a583b.webp",
+      "celebs/Mukti Mohan/6pqcii372pb71.webp",
+      "celebs/Mukti Mohan/FQ2Ai_dacAAzpsB.webp",
+      "celebs/Mukti Mohan/3ctlj6s38ix71.webp",
+      "celebs/Mukti Mohan/FQ2AhGPagAARWJt.webp",
+      "celebs/Mukti Mohan/mukthi-mohan-images-_27.webp",
+      "celebs/Mukti Mohan/6850b8618523c4d60e17945e9247f51a.webp",
+      "celebs/Mukti Mohan/FHr-or7VQAErY2R.webp"
+    ],
+    "Nidhhi Agarwal": [
+      "celebs/Nidhhi Agarwal/x4evanw4g1751.webp",
+      "celebs/Nidhhi Agarwal/6DK5qn5LXoPeuWFtIMf0DUdoVzx2PVxr1IM32FVcKsI.webp",
+      "celebs/Nidhhi Agarwal/NzjpXDC4htFMM6DD6qTOefcX7qasAaSyLPbdn0OISro.webp",
+      "celebs/Nidhhi Agarwal/eAzu80U.webp",
+      "celebs/Nidhhi Agarwal/hprnd8c8hp651.webp"
+    ],
+    "Sandeepa Dhar": [
+      "celebs/Sandeepa Dhar/r3amwz7ox9381.webp",
+      "celebs/Sandeepa Dhar/Sandeepa-D.webp",
+      "celebs/Sandeepa Dhar/0im46qcuqxc61.webp",
+      "celebs/Sandeepa Dhar/FC6uGYbXEAIXkDv.webp",
+      "celebs/Sandeepa Dhar/ff5h1cbc2k671.webp",
+      "celebs/Sandeepa Dhar/iamsandeepadhar-20200411-093340-0-jpg_1200x1500xt.webp",
+      "celebs/Sandeepa Dhar/ZWppB-BBw4G5GSLxqnMCZ6GctdDuUWmOY2F6c5cvwU4.webp",
+      "celebs/Sandeepa Dhar/j5atmuyb2n781.webp"
+    ],
+    "Tapsee Pannu": [
+      "celebs/Tapsee Pannu/zp427sf6wy551.webp",
+      "celebs/Tapsee Pannu/0459f11b4f5f8a475416116d2aba5b3c.webp"
+    ],
+    "Radhika Seth": [
+      "celebs/Radhika Seth/tumblr_oh6m5cGI1M1sfg941o3_1280.webp",
+      "celebs/Radhika Seth/urqqsf31ojd51.webp",
+      "celebs/Radhika Seth/EQ0st0PUwAAoRmG.jpg large.webp",
+      "celebs/Radhika Seth/pzwadtv6r4351.webp"
+    ],
+    "Raashi Khanna": [
+      "celebs/Raashi Khanna/vfd0yogd2r551.webp",
+      "celebs/Raashi Khanna/94tzhq97r6x41.webp",
+      "celebs/Raashi Khanna/kl4atzf97my41.webp",
+      "celebs/Raashi Khanna/EP7fffsU8AYQnHX.webp"
+    ],
+    "Vaani Kapoor": [
+      "celebs/Vaani Kapoor/u9wta2oj31b51.webp"
+    ],
+    "Sanjeeda Sheikh": [
+      "celebs/Sanjeeda Sheikh/sanjeeda-sheikh-hot-hd-photos-mobile-wallpapers-1080p-rj5g.webp"
+    ],
+    "Aditi Rao Hydari": [
+      "celebs/Aditi Rao Hydari/QKqpMYioOcu1mNU2GrwZyTfICOpFeM0QeM7IJTYN1_A.webp",
+      "celebs/Aditi Rao Hydari/Aditi-R.webp",
+      "celebs/Aditi Rao Hydari/79vfb6uu73z41.webp",
+      "celebs/Aditi Rao Hydari/y8puq2bb88751.webp",
+      "celebs/Aditi Rao Hydari/Aditi-Rao-Hydari-Hot-Photoshoot-HD-Mobile-Wallpaper.webp",
+      "celebs/Aditi Rao Hydari/yblb4eq53yz41.webp",
+      "celebs/Aditi Rao Hydari/lgc5e0r2fh751.webp",
+      "celebs/Aditi Rao Hydari/f2zfnl391n151.webp",
+      "celebs/Aditi Rao Hydari/uobe62gh9qy41.webp",
+      "celebs/Aditi Rao Hydari/wallpapersden.com_aditi-rao-hydari-sexy-photoshoot_5120x2880.webp",
+      "celebs/Aditi Rao Hydari/r26i6c6st5a51.webp",
+      "celebs/Aditi Rao Hydari/ffvwh79a4n051.webp",
+      "celebs/Aditi Rao Hydari/5dmf5y5qzh051.webp",
+      "celebs/Aditi Rao Hydari/ib4v023dww151.webp"
+    ],
+    "Aditi Vats": [
+      "celebs/Aditi Vats/cbzwzumd44d41.webp",
+      "celebs/Aditi Vats/hnY_60lR6DgxdbO5D5J2JsSQAlIWQrYEP0RkoFZ9T3Q.webp",
+      "celebs/Aditi Vats/hb3lukfn2do61.webp",
+      "celebs/Aditi Vats/108122470_2544018012577312_8746453624124346494_n.webp",
+      "celebs/Aditi Vats/4jlqw0vpwmu51-lanczos3.webp",
+      "celebs/Aditi Vats/de5e3d0f-925f-427c-a3a9-38f4fec2bdb1.webp",
+      "celebs/Aditi Vats/pbtwppz0mmu51.webp",
+      "celebs/Aditi Vats/4jlqw0vpwmu51.webp",
+      "celebs/Aditi Vats/q9wmypdmtit41.webp",
+      "celebs/Aditi Vats/v6p0stwdgit41.webp",
+      "celebs/Aditi Vats/pbtwppz0mmu51-lanczos3.webp"
+    ],
+    "Shriya Saran": [
+      "celebs/Shriya Saran/thtj1vazew851.webp",
+      "celebs/Shriya Saran/5hb3spq7hw271.webp",
+      "celebs/Shriya Saran/bsw72uf5nv551.webp",
+      "celebs/Shriya Saran/rcyxv0ytye551.webp",
+      "celebs/Shriya Saran/glc0iyx66p951.webp"
+    ],
+    "Chitrangada Singh": [
+      "celebs/Chitrangada Singh/qvjpvh7zgfg51.webp"
+    ],
+    "Ananya Panday": [
+      "celebs/Ananya Panday/9AqxcK43jYQyu-nNreEc5nEDREHAX-lclf61qmxuhP0.webp",
+      "celebs/Ananya Panday/5353985da1b01aa0dd0764db7ffba9c7.webp",
+      "celebs/Ananya Panday/IVfxYPk3Vd7MssupaQT1934KJP4iEYLKR8RRiiTV2WY.webp",
+      "celebs/Ananya Panday/fTKbwtEQH5aOUgEkaRSNI1zbnXBAIdbuCT91oHAuGLY.webp",
+      "celebs/Ananya Panday/Ananya-K-3-WM.webp",
+      "celebs/Ananya Panday/ananyaajio.webp",
+      "celebs/Ananya Panday/51814789347_6e077697dc_o.webp",
+      "celebs/Ananya Panday/s0SUQMPtJjwLfpArwvPXoyfAiP9c3aGmbbSNtdaUdW8.webp",
+      "celebs/Ananya Panday/VyY9fqarOJpYE9U9Xk-LENC_mTm1MG_ovC2uiHk8LG8.webp",
+      "celebs/Ananya Panday/4bPYYm9b7Ogf8zAk-qex4Ma2gcpkGfbF6Sh5MmyDe8c.webp",
+      "celebs/Ananya Panday/jwrjarc4xnc51.webp",
+      "celebs/Ananya Panday/io468uk5fvs51.webp",
+      "celebs/Ananya Panday/a5w1fgz9xa251.webp",
+      "celebs/Ananya Panday/418839-3.webp",
+      "celebs/Ananya Panday/BmOKQvaK1RRDUy4Jhxl5kGPg04BHbkxW1zJZjzv8t1w.webp",
+      "celebs/Ananya Panday/v488fj05xcz51.webp",
+      "celebs/Ananya Panday/zRAZ8EVwSB9ITeNXAC8DX_3RL0TUUM3Q6bErwhEUzfs.webp",
+      "celebs/Ananya Panday/42brogf5fvs51.webp",
+      "celebs/Ananya Panday/esgm4l2e5v151.webp",
+      "celebs/Ananya Panday/y-ZR6mvjHOQTKZuoIPWUkzaYc3D_8tufgjfC29NV2RA.webp",
+      "celebs/Ananya Panday/2714ba19121037b48164ef71cc8f02f1.webp",
+      "celebs/Ananya Panday/os48yn0mrbl51.webp",
+      "celebs/Ananya Panday/EvELBu1VkAIUg3p.webp",
+      "celebs/Ananya Panday/5oarego2vra51.webp",
+      "celebs/Ananya Panday/FNAb9V5efT9Zy0dxxzIOx7wf5lRncuuMfvQEGb2fgEU.webp",
+      "celebs/Ananya Panday/3thajnij2v151.webp"
+    ],
+    "Priyanka Chopra": [
+      "celebs/Priyanka Chopra/Gu_ehIlhNqpU4AGCiz9t27phIGTIA8OypTDbhB2ColQ.webp"
+    ],
+    "Tamanna": [
+      "celebs/Tamanna/169470870ec9a9082ad84b00bc15e2b7.webp",
+      "celebs/Tamanna/pyzn8vnihi451.webp",
+      "celebs/Tamanna/tamanna-bhatia-wide.webp",
+      "celebs/Tamanna/tamanna.webp",
+      "celebs/Tamanna/S0jIE0prXNfGcj0OZX7B81HgKC3SFO3cae0G13wwS2o.webp",
+      "celebs/Tamanna/pthwq2kxcw451.webp"
+    ],
+    "Harshita Gaur": [
+      "celebs/Harshita Gaur/5it7dx8duu071.webp",
+      "celebs/Harshita Gaur/zf4lyjxgg2s51.webp"
+    ],
+    "Kriti Kharbanda": [
+      "celebs/Kriti Kharbanda/15insta-glam2.webp",
+      "celebs/Kriti Kharbanda/zclnc6z8ir251.webp",
+      "celebs/Kriti Kharbanda/kueseti2bo851.webp",
+      "celebs/Kriti Kharbanda/kriti.kharbanda___B4xTMWyHxlG___.webp"
+    ],
+    "Manushi Chhillar": [
+      "celebs/Manushi Chhillar/AD5-B0255-8-FE4-44-D9-9-E44-533026-BDEA5-C.webp"
+    ],
+    "Sanya Malhotra": [
+      "celebs/Sanya Malhotra/x24wigP4o4RxI9tAti9zK2DzH53WsccL-yVG0AcDCyc.webp",
+      "celebs/Sanya Malhotra/pcofr5dsfyo61.webp"
+    ],
+    "Shirley Setia": [
+      "celebs/Shirley Setia/Shirley-S.webp",
+      "celebs/Shirley Setia/EhtvRwJU0AAHjla.webp",
+      "celebs/Shirley Setia/a5w7v088nzu51.webp",
+      "celebs/Shirley Setia/vZnyYVg2lwGyGpqt0Lqwp06xbyo1wD5jYF-5aZ9lb5g.webp",
+      "celebs/Shirley Setia/EAN09_eWwAABVBC.jpg large.webp",
+      "celebs/Shirley Setia/2345nl3ho8471.webp",
+      "celebs/Shirley Setia/hsqsqbvo0ir51.webp",
+      "celebs/Shirley Setia/yjeugjvp8je51.webp",
+      "celebs/Shirley Setia/fUzDoJl7xR-dx1c7FQPYT5WHqWh5VbYxmxZjc3h7Acg.webp",
+      "celebs/Shirley Setia/Shirley-S-4.webp",
+      "celebs/Shirley Setia/tVbLSq-yhNJgCGM0TLwRdlwzvp3TQHSx-ymWyP-ZQ9Q.webp",
+      "celebs/Shirley Setia/nUkCSVQy4bNjvU0ALNN04PT4DQN7oqPnyiuvMe59P64.webp"
+    ],
+    "Kriti Sanon": [
+      "celebs/Kriti Sanon/w5bLxEtWBBSjcqVT1z1nCDxObLwq4Dt38Yop2WXLM6c.webp",
+      "celebs/Kriti Sanon/qov233fyul371.webp",
+      "celebs/Kriti Sanon/oujitklmnwd51.webp",
+      "celebs/Kriti Sanon/nwO9qYQ0McO4Q95DR0cKWN77q4RsKM4TDOFrB9dOKGo.webp",
+      "celebs/Kriti Sanon/f14ozy7gq2351.webp",
+      "celebs/Kriti Sanon/fb5f088286e637a2c1607f35fcbd5001.webp",
+      "celebs/Kriti Sanon/peacock_magazine.webp",
+      "celebs/Kriti Sanon/xea4rll2vrp4CWHlpxmdJ4PB-2vVzAUaqc-lBcNcIJU.webp",
+      "celebs/Kriti Sanon/eBhIJQdxEgO3-BW4wuYCvVDX1UptW582zzcwKOBtQyU.webp",
+      "celebs/Kriti Sanon/IJgH44LjIZyXY7QwSS4YibTAS7TOeB5_i5HIHKfypSQ.webp",
+      "celebs/Kriti Sanon/tJac_5-p1vNxcTuO9s5ucQnmac7a--73XMJ3YsQqGUE.webp",
+      "celebs/Kriti Sanon/Hkryihg2A1VPIuLobXLcpeB596Ldzf9HkZkFBhT37TM.webp",
+      "celebs/Kriti Sanon/q6ydNuWRb0h7KC_staVXwfb_H9DtTamfoTKRNWb-oeM.webp",
+      "celebs/Kriti Sanon/doxxsjst7a351.webp",
+      "celebs/Kriti Sanon/ybjox3kuti151.webp",
+      "celebs/Kriti Sanon/hpse_fullsize__1386003102_Kriti Sanon at the Red Carpet Of Vogue Women Of The Year 2017 on 25th Sept 2017 (11)_59c9c70794600.webp",
+      "celebs/Kriti Sanon/WV9KE2irsIfbLHByWcBgY2KKWRm-6vZvQLgd2Y4M2Dk.webp",
+      "celebs/Kriti Sanon/lPHNAR1ym0GOZvC_GbhsPuiP7MtU3nIY2aT80DRq_L0.webp",
+      "celebs/Kriti Sanon/iSgpot0w0eS4g7uLhScttBaIgJn910oCD9TuaPET7z8.webp",
+      "celebs/Kriti Sanon/0KfdarTMQVH_skd9FVHm9HNHR5BBbX7UdKJv3Xt11y0.webp",
+      "celebs/Kriti Sanon/97x9Sja2qSvF3u7TIMMv43ESyWuYLmAq1ozERTWRdmw.webp",
+      "celebs/Kriti Sanon/9ae2b386004479-5d8c84296c34f.webp",
+      "celebs/Kriti Sanon/Kriti-S-1.webp",
+      "celebs/Kriti Sanon/fe1FD9qZmtyXg2jMBBIRGZ-zS3Qwcull4Fts4AlVTCA.webp",
+      "celebs/Kriti Sanon/s1dpPJEcmXIHWoxuQ_wCQVQIxVfjyFNJFqCcTXwEpAU.webp",
+      "celebs/Kriti Sanon/wSaq7qamjCwKVLnzBs5F81IIr8FqKJt9U_IykUnsezE.webp"
+    ],
+    "Catherine Tresa": [
+      "celebs/Catherine Tresa/i54afe9bb2651.webp",
+      "celebs/Catherine Tresa/h81ib12kz0b51.webp"
+    ],
+    "Rakul Preet Singh": [
+      "celebs/Rakul Preet Singh/gm9jcwis4p451.webp",
+      "celebs/Rakul Preet Singh/9bh9rj2hifg51.webp",
+      "celebs/Rakul Preet Singh/pw3xbtivqkh81.webp",
+      "celebs/Rakul Preet Singh/dkapcjlv88751.webp",
+      "celebs/Rakul Preet Singh/Rakul-Preet-Singh.webp",
+      "celebs/Rakul Preet Singh/VvlF4D_-G32aY8vsF4jTNl5CFwB3Cr8IHU8ewEIE1_o.webp",
+      "celebs/Rakul Preet Singh/RPS-1.webp",
+      "celebs/Rakul Preet Singh/f2js31n8ki951.webp",
+      "celebs/Rakul Preet Singh/pjVXRS_PPswrdEi79UVns4WdXoQI5QZZZCgJTXvOPtk.webp",
+      "celebs/Rakul Preet Singh/y1z0dtccfy951.webp",
+      "celebs/Rakul Preet Singh/Rakul-PS-3.webp",
+      "celebs/Rakul Preet Singh/JSG8xvo0w-iqdbDrQZZtNKNYHhMg_FVnFO0QyBFfwC0.webp",
+      "celebs/Rakul Preet Singh/RcMjKptSrwNEIeyZmcSk4OQ-3o9gg3hhiI5U4wgmN7U.webp"
+    ]
+  }
+}
