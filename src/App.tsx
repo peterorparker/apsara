@@ -1,10 +1,15 @@
-import { Route, Routes } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import Sudoku1 from "./apps/desi/Sudoku1";
+import { ErrorPage, Home } from "./components/BasePages";
 
-export default function App() {
-  return (
-    <Routes>
-      <Route path="/desi/sudoku1" element={<Sudoku1 />} />
-    </Routes>
-  );
-}
+export const router = createHashRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "desi/sudoku1",
+    element: <Sudoku1 />,
+  },
+]);
