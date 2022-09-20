@@ -18,7 +18,7 @@ function Sudoku1() {
           "Nushrat Bharucha",
           "Sara Ali Khan",
           "Ileana D'Cruz",
-          "Raima Sen",
+          "Pooja Hegde",
           "Alia Bhatt",
           "Ananya Panday",
           "Kiara Advani",
