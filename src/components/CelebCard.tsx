@@ -26,7 +26,7 @@ function CelebCard(props: {
   const getRandom = (data: any) => {
     let files = data.files[props.name];
     console.log(files[Math.floor(Math.random() * files.length)]);
-    return "/" + files[Math.floor(Math.random() * files.length)];
+    return "/apsara/" + files[Math.floor(Math.random() * files.length)];
   };
 
   const height = props.height || 400;

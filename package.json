@@ -1,7 +1,7 @@
 {
   "name": "apsara",
   "version": "0.1.0",
-  "homepage": "https://peterorparker.github.io/",
+  "homepage": "https://peterorparker.github.io/apsara",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
