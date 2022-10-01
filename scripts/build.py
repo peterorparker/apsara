@@ -3,15 +3,36 @@ import os
 import json
 
 root_dir = Path("./public/celebs")
-files = {}
-for sub_dir in os.scandir(root_dir):
-    if sub_dir.is_dir():
-        files[sub_dir.name] = [
-            str(file.relative_to(root_dir.parent)) for file in Path(sub_dir).rglob("*")
-        ]
+max_level = 2
 
-counts = {k: len(v) for k, v in files.items()}
-counts = {k: counts[k] for k in sorted(counts, key=counts.get, reverse=True)}
+
+def get_files(path, level=1):
+    if level == max_level:
+        return {
+            x.name: [str(y.relative_to(root_dir.parent)) for y in x.rglob("*")]
+            for x in path.glob("*/")
+            if x.is_dir() and x.name.lower() != "blank"
+        }
+    return {x.name: get_files(x, level + 1) for x in path.glob("*/") if x.is_dir()}
+
+
+def get_counts(file_map):
+    counts = {}
+    sort = False
+    for k, v in file_map.items():
+        if isinstance(v, dict):
+            counts[k] = get_counts(v)
+        else:
+            counts[k] = len(v)
+            sort = True
+    if sort:
+        return {k: counts[k] for k in sorted(counts, key=counts.get, reverse=True)}
+    else:
+        return counts
+
+
+files = get_files(root_dir)
+counts = get_counts(files)
 data = {
     "counts": counts,
     "files": files,

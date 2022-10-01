@@ -18,14 +18,14 @@ const background = {
 
 function CelebCard(props: {
   name: string;
+  group: string;
   onClick?: any;
   disabled?: boolean;
   selected?: boolean;
   height?: number;
 }) {
   const getRandom = (data: any) => {
-    let files = data.files[props.name];
-    console.log(files[Math.floor(Math.random() * files.length)]);
+    let files = data.files[props.group][props.name];
     return "/apsara/" + files[Math.floor(Math.random() * files.length)];
   };
 
@@ -40,7 +40,6 @@ function CelebCard(props: {
       <CardActionArea
         sx={props.disabled ? { ...background, filter: "grayscale(80)" } : {}}
         disabled={props.disabled || false}
-        // onClick={() => set_selected(!selected)}
         onClick={props.onClick}
       >
         <CardMedia component="img" height={height} src={url} />

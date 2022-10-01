@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { RouterProvider } from "react-router-dom";
 import { router } from "./App";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./themes/default";
 
 import "./styles/index.css";
 
@@ -11,6 +12,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ThemeProvider theme={theme}>
+      {router}
+    </ThemeProvider>
   </React.StrictMode>
 );
