@@ -11,14 +11,15 @@ const pages = {
   },
 };
 
-export const routes: any[] = [];
+export const routes: JSX.Element[] = [];
 let idx = 0;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function generateMenuList(mapping: any, key?: string) {
   idx = idx + 1;
   let childMap = mapping;
   if (key) childMap = mapping[key];
-  let items = [];
+  const items = [];
 
   if ("path" in childMap) {
     routes.push(
@@ -36,11 +37,11 @@ function generateMenuList(mapping: any, key?: string) {
       </MenuItem>
     );
   } else {
-    for (let temp_key in childMap) {
+    for (const temp_key in childMap) {
       items.push(generateMenuList(childMap, temp_key));
     }
   }
-  let menuList = [];
+  const menuList = [];
   if (key) {
     menuList.push(
       <Typography key={idx + "title"} variant="h6">
@@ -62,7 +63,7 @@ export function Menu() {
       variant="persistent"
       open
       sx={{
-        display: { xs: "none", sm: "none" , md: "block"},
+        display: { xs: "none", sm: "none", md: "block" },
       }}
     >
       {generateMenuList(pages)}
