@@ -13,6 +13,16 @@ function getCelebs(group: celebGroupType) {
 //   return "/apsara/" + files[Math.floor(Math.random() * files.length)];
 // }
 
+// import data from "./dummy.json"
+
+// type groupType = keyof typeof data.files;
+// type subGroupType = keyof typeof data.files[groupType];
+
+// function getRandomImage(group: groupType, subgroup: subGroupType) {
+//   const files = data.files[group][subgroup];
+//   return files[Math.floor(Math.random() * files.length)];
+// }
+
 export function randomCelebs(
   range: string,
   group: celebGroupType,
