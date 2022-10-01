@@ -6,14 +6,15 @@ function getCelebs(data: any, group: string) {
 }
 
 export function randomCelebs(range: string, group: string, count: number) {
-  var d = new Date();
+  const d = new Date();
   if (range === "week") {
     d.setDate(d.getDate() + ((5 - d.getDay()) % 7 || 7));
   }
   d.setHours(0, 0, 0, 0);
   const rng = rand(d.toString());
-  let celebs = getCelebs(data, group);
-  let selected = Array();
+  const celebs = getCelebs(data, group);
+  const selected = [];
+
   for (let i = 0; i < count; i++) {
     selected.push(celebs.splice(Math.floor(rng() * celebs.length), 1)[0]);
   }

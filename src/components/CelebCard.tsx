@@ -3,7 +3,7 @@ import {
   CardActionArea,
   CardContent,
   CardMedia,
-  Typography,
+  Typography
 } from "@mui/material";
 import { useRef } from "react";
 import data from "../data/celebs.json";

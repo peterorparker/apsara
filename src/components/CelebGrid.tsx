@@ -80,7 +80,7 @@ function CelebGrid(props: {
   function updateScore() {
     let messages = [];
     for (let i = 0; i < selected.length; i++) {
-      let items = Array();
+      let items = [];
       for (let j = 0; j < selected[i].length; j++) {
         if (selected[i][j]) items.push(props.celebs[i * props.columns + j]);
       }
