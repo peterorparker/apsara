@@ -3,7 +3,7 @@ import {
   CardActionArea,
   CardContent,
   CardMedia,
-  Typography
+  Typography,
 } from "@mui/material";
 import { useRef } from "react";
 import data from "../data/celebs.json";
@@ -19,11 +19,12 @@ const background = {
 function CelebCard(props: {
   name: string;
   group: string;
-  onClick?: any;
+  onClick?: () => void;
   disabled?: boolean;
   selected?: boolean;
   height?: number;
 }) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const getRandom = (data: any) => {
     const files = data.files[props.group][props.name];
     return "/apsara/" + files[Math.floor(Math.random() * files.length)];

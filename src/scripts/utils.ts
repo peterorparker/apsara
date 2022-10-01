@@ -1,18 +1,30 @@
 import data from "../data/celebs.json";
 import rand from "seedrandom";
 
-function getCelebs(data: any, group: string) {
+type celebGroupType = keyof typeof data.files;
+// type celebNameType = keyof typeof data.files[celebGroupType];
+
+function getCelebs(group: celebGroupType) {
   return Object.keys(data.counts[group]).sort();
 }
 
-export function randomCelebs(range: string, group: string, count: number) {
+// function getRandomImage(group: celebGroupType, name: celebNameType) {
+//   const files = data.files[group][name];
+//   return "/apsara/" + files[Math.floor(Math.random() * files.length)];
+// }
+
+export function randomCelebs(
+  range: string,
+  group: celebGroupType,
+  count: number
+) {
   const d = new Date();
   if (range === "week") {
     d.setDate(d.getDate() + ((5 - d.getDay()) % 7 || 7));
   }
   d.setHours(0, 0, 0, 0);
   const rng = rand(d.toString());
-  const celebs = getCelebs(data, group);
+  const celebs = getCelebs(group);
   const selected = [];
 
   for (let i = 0; i < count; i++) {

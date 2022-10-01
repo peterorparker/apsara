@@ -48,8 +48,8 @@ export function diagonal(selected: boolean[][], disabled: boolean[][]) {
 }
 
 function handleChoice(
-  handler: (selected: boolean[][], disabled: boolean[][]) => void,
-  selected: boolean[][]
+  selected: boolean[][],
+  handler?: (selected: boolean[][], disabled: boolean[][]) => void,
 ) {
   const disabled = Array.from(Array(selected.length), () =>
     Array(selected[0].length).fill(false)
@@ -64,7 +64,7 @@ function CelebGrid(props: {
   group: string;
   celebs: string[];
   height?: number;
-  choiceHandler?: any;
+  choiceHandler?: (selected: boolean[][], disabled: boolean[][]) => void;
   rowTitles?: string[];
 }) {
   const [selected, setSelected] = useState(
@@ -72,7 +72,7 @@ function CelebGrid(props: {
   );
 
   const [disabled, setDisabled] = useState(
-    handleChoice(props.choiceHandler, selected)
+    handleChoice(selected, props.choiceHandler)
   );
 
   const [score, setScore] = useState("");
@@ -101,7 +101,7 @@ function CelebGrid(props: {
     setSelected(dummy);
 
     if (props.choiceHandler != null) {
-      const dummy = handleChoice(props.choiceHandler, selected);
+      const dummy = handleChoice(selected, props.choiceHandler)
       setDisabled(dummy);
     }
 
