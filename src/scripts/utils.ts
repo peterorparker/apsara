@@ -1,5 +1,5 @@
 import data from "../data/celebs.json";
-const rand = require("seedrandom");
+import rand from "seedrandom";
 
 function getCelebs(data: any, group: string) {
   return Object.keys(data.counts[group]).sort();

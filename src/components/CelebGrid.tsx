@@ -36,7 +36,7 @@ export function diagonal(selected: boolean[][], disabled: boolean[][]) {
       for (let j = 0; j < selected[i].length; j++) {
         if (!selected[i][j]) disabled[i][j] = true;
         else {
-          let ids = [j - 1, j, j + 1];
+          const ids = [j - 1, j, j + 1];
           for (let k = 0; k < selected[i].length; k++)
             if (!ids.includes(k)) {
               disabled[i + 1][k] = true;
@@ -51,7 +51,7 @@ function handleChoice(
   handler: (selected: boolean[][], disabled: boolean[][]) => void,
   selected: boolean[][]
 ) {
-  let disabled = Array.from(Array(selected.length), () =>
+  const disabled = Array.from(Array(selected.length), () =>
     Array(selected[0].length).fill(false)
   );
   if (handler) handler(selected, disabled);
@@ -78,9 +78,9 @@ function CelebGrid(props: {
   const [score, setScore] = useState("");
 
   function updateScore() {
-    let messages = [];
+    const messages = [];
     for (let i = 0; i < selected.length; i++) {
-      let items = [];
+      const items = [];
       for (let j = 0; j < selected[i].length; j++) {
         if (selected[i][j]) items.push(props.celebs[i * props.columns + j]);
       }
@@ -90,18 +90,18 @@ function CelebGrid(props: {
         messages.push(msg + items.join(", "));
       }
     }
-    let fullMessage = messages.join("\n\n");
+    const fullMessage = messages.join("\n\n");
     navigator.clipboard.writeText(fullMessage);
     setScore(fullMessage + "\n\n#### (Selections copied to clipboard)");
   }
 
   function updateSelection(row: number, column: number) {
-    let dummy = selected.slice();
+    const dummy = selected.slice();
     dummy[row][column] = !dummy[row][column];
     setSelected(dummy);
 
     if (props.choiceHandler != null) {
-      let dummy = handleChoice(props.choiceHandler, selected);
+      const dummy = handleChoice(props.choiceHandler, selected);
       setDisabled(dummy);
     }
 
@@ -109,9 +109,9 @@ function CelebGrid(props: {
   }
 
   function generateGrid() {
-    let rows = [];
+    const rows = [];
     for (let i = 0; i < props.rows; i++) {
-      let row = [];
+      const row = [];
       if (props.rowTitles) {
         row.push(
           <Title
@@ -122,8 +122,8 @@ function CelebGrid(props: {
         );
       }
       for (let j = 0; j < props.columns; j++) {
-        let key = i * props.columns + j;
-        let celeb = key >= props.celebs.length ? "Blank" : props.celebs[key];
+        const key = i * props.columns + j;
+        const celeb = key >= props.celebs.length ? "Blank" : props.celebs[key];
         row.push(
           <CelebCard
             key={key}
