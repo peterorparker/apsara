@@ -30,12 +30,12 @@ export function randomCelebs(
 ) {
   const d = new Date();
   if (range === "week") {
-    d.setDate(d.getDate() + ((5 - d.getDay()) % 7 || 7));
+    d.setDate(d.getDate() + d.getDay() - 2);
   }
   d.setHours(0, 0, 0, 0);
-  console.log(d.toString())
   const rng = rand(d.toString());
   const celebs = getCelebs(group);
+  console.log(d);
   const selected = [];
 
   for (let i = 0; i < count; i++) {
