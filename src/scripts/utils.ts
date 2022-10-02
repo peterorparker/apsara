@@ -1,5 +1,5 @@
-import data from "../data/celebs.json";
 import rand from "seedrandom";
+import data from "../data/celebs.json";
 
 type celebGroupType = keyof typeof data.files;
 // type celebNameType = keyof typeof data.files[celebGroupType];
@@ -33,13 +33,14 @@ export function randomCelebs(
     d.setDate(d.getDate() + d.getDay() - 2);
   }
   d.setHours(0, 0, 0, 0);
-  const rng = rand(d.toString());
+  const rng = rand(d.toUTCString());
   const celebs = getCelebs(group);
   const selected = [];
 
   for (let i = 0; i < count; i++) {
     selected.push(celebs.splice(Math.floor(rng() * celebs.length), 1)[0]);
   }
+  console.log(selected);
   return selected;
 }
 
