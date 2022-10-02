@@ -33,6 +33,7 @@ export function randomCelebs(
     d.setDate(d.getDate() + ((5 - d.getDay()) % 7 || 7));
   }
   d.setHours(0, 0, 0, 0);
+  console.log(d.toString())
   const rng = rand(d.toString());
   const celebs = getCelebs(group);
   const selected = [];
