@@ -1,36 +1,19 @@
 import { AppBar, Button, Menu, MenuItem, Toolbar } from "@mui/material";
 
 import { NestedMenuItem } from "mui-nested-menu";
+import { useEffect } from "react";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import * as React from "react";
 import { useState } from "react";
-import { Link, Route } from "react-router-dom";
+import { Link, Route, useLocation } from "react-router-dom";
 import { CelebPerDay } from "../apps/desi/Weekly";
 
 const appPages = {
   Indian: {
     Weekly: {
-      "Celeb per day": {
-        path: "/desi/weekly/celebperday",
-        element: <CelebPerDay />,
-      },
-    },
-    Daily: {
-      "Celeb per day2": {
-        path: "/desi/weekly/celebperday2",
-        element: <CelebPerDay />,
-      },
-      "Celeb per day3": {
-        path: "/desi/weekly/celebperday3",
-        element: <CelebPerDay />,
-      },
-    },
-  },
-  Global: {
-    Weekly: {
-      "Celeb per day4": {
+      "Pick a Celeb / Day": {
         path: "/desi/weekly/celebperday",
         element: <CelebPerDay />,
       },
@@ -43,20 +26,19 @@ const externalPages: { [key: string]: string } = {
 };
 
 export const routes: JSX.Element[] = [];
-let idx = 0;
+const titleMap: { [key: string]: string } = {};
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function generateRoutes(mapping: any, key?: string) {
-  idx = idx + 1;
-  let childMap = mapping;
-  if (key) childMap = mapping[key];
-  if ("path" in childMap) {
-    routes.push(
-      <Route key={idx} path={childMap.path} element={childMap.element} />
-    );
-  } else {
-    for (const temp_key in childMap) {
-      generateRoutes(childMap, temp_key);
+function generateRoutes(mapping: any) {
+  for (const key in mapping) {
+    const value = mapping[key];
+    if ("path" in value) {
+      routes.push(
+        <Route key={value.path} path={value.path} element={value.element} />
+      );
+      titleMap[value.path] = key;
+    } else {
+      generateRoutes(value);
     }
   }
 }
@@ -65,6 +47,12 @@ generateRoutes(appPages);
 export function NavBar() {
   const [anchor, setAnchor] = useState<null | HTMLElement>(null);
   const [activeGroup, setActiveGroup] = useState<null | string>(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    console.log(titleMap[location.pathname], location.pathname, location);
+    document.title = titleMap[location.pathname] || "Home";
+  }, [location]);
 
   const isOpen = (group?: string) => {
     return Boolean(anchor) && group === activeGroup;
@@ -91,7 +79,6 @@ export function NavBar() {
             variant="contained"
             disableElevation
             onClick={(event) => handleOpen(key, event)}
-            // onMouseOver={handleOpen}
             endIcon={<ExpandMoreIcon />}
           >
             {key}
@@ -107,9 +94,6 @@ export function NavBar() {
             keepMounted
             open={isOpen(key)}
             onClose={handleClose}
-            // MenuListProps={{
-            //   "aria-labelledby": key,
-            // }}
           >
             {generateMenu(mapping[key], level + 1, key)}
           </Menu>
@@ -122,8 +106,6 @@ export function NavBar() {
             variant="contained"
             disableElevation
             href={externalPages[key]}
-            // onClick={handleOpen}
-            // onMouseOver={handleOpen}
           >
             {key}
           </Button>

@@ -29,7 +29,7 @@ function seedString(range: string, group: string, count: number) {
 
   let d = moment().utc();
   d.set({ hour: 0, minute: 0, second: 0, millisecond: 0 });
-  if (range === "weekly") d = d.day(5 + 7);
+  if (range === "weekly") d = d.day(5);
   else if (range === "monthly") d = d.date(1);
 
   const seed = d.format(dateFormat) + ", " + count + " " + group;
