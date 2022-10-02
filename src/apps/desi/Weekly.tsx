@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import CelebGrid, { diagonal } from "../../components/CelebGrid";
 import { days, randomCelebs } from "../../scripts/utils";
 
-const celebs28 = randomCelebs("week", "desi", 28);
+const celebs28 = randomCelebs("weekly", "desi", 28);
 
 export function CelebPerDay() {
   useEffect(() => {

@@ -1,10 +1,10 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { ErrorPage, Home } from "./components/BasePages";
-import { Menu, routes } from "./components/Menu";
+import { NavBar, routes } from "./components/Navigation";
 
 export const router = (
   <HashRouter>
-    <Menu></Menu>
+    <NavBar />
     <Routes>
       <Route path="/" element={<Home />} errorElement={<ErrorPage />}></Route>
       {routes}

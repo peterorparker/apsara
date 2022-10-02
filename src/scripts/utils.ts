@@ -1,5 +1,6 @@
 import rand from "seedrandom";
 import data from "../data/celebs.json";
+import moment from "moment";
 
 type celebGroupType = keyof typeof data.files;
 // type celebNameType = keyof typeof data.files[celebGroupType];
@@ -13,7 +14,7 @@ function getCelebs(group: celebGroupType) {
 //   return "/apsara/" + files[Math.floor(Math.random() * files.length)];
 // }
 
-// import data from "./dummy.json"
+// import data from "./dummy.json";
 
 // type groupType = keyof typeof data.files;
 // type subGroupType = keyof typeof data.files[groupType];
@@ -23,24 +24,32 @@ function getCelebs(group: celebGroupType) {
 //   return files[Math.floor(Math.random() * files.length)];
 // }
 
+function seedString(range: string, group: string, count: number) {
+  const dateFormat = "ddd, DD MMM YYYY";
+
+  let d = moment().utc();
+  d.set({ hour: 0, minute: 0, second: 0, millisecond: 0 });
+  if (range === "weekly") d = d.day(5 + 7);
+  else if (range === "monthly") d = d.date(1);
+
+  const seed = d.format(dateFormat) + ", " + count + " " + group;
+  console.log(seed);
+  return seed;
+}
+
 export function randomCelebs(
   range: string,
   group: celebGroupType,
   count: number
 ) {
-  const d = new Date();
-  if (range === "week") {
-    d.setDate(d.getDate() + d.getDay() - 2);
-  }
-  d.setHours(0, 0, 0, 0);
-  const rng = rand(d.toUTCString());
+  const rng = rand(seedString(range, group, count));
   const celebs = getCelebs(group);
   const selected = [];
 
   for (let i = 0; i < count; i++) {
     selected.push(celebs.splice(Math.floor(rng() * celebs.length), 1)[0]);
   }
-  console.log(selected);
+  console.log(selected.join(", "));
   return selected;
 }
 
