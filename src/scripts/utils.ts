@@ -35,7 +35,6 @@ export function randomCelebs(
   d.setHours(0, 0, 0, 0);
   const rng = rand(d.toString());
   const celebs = getCelebs(group);
-  console.log(d);
   const selected = [];
 
   for (let i = 0; i < count; i++) {
