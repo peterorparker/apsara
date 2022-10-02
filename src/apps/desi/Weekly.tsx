@@ -14,7 +14,7 @@ export function CelebPerDay() {
       columns={4}
       group="desi"
       celebs={celebs28}
-      height={275}
+      height={300}
       choiceHandler={diagonal}
       rowTitles={days}
     />
