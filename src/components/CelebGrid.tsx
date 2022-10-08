@@ -1,10 +1,9 @@
 import { Stack } from "@mui/material";
 import { useState } from "react";
 import CelebCard from "./CelebCard";
-import Score from "./Score";
-import Title from "./Title";
+import { CelebNote, Score, Title } from "./Text";
 
-const spacing = 1;
+const spacing = 1.5;
 
 function sudokuDisable(disabled: boolean[][], row: number, column: number) {
   for (let i = 0; i < disabled.length; i++) {
@@ -49,7 +48,7 @@ export function diagonal(selected: boolean[][], disabled: boolean[][]) {
 
 function handleChoice(
   selected: boolean[][],
-  handler?: (selected: boolean[][], disabled: boolean[][]) => void,
+  handler?: (selected: boolean[][], disabled: boolean[][]) => void
 ) {
   const disabled = Array.from(Array(selected.length), () =>
     Array(selected[0].length).fill(false)
@@ -66,6 +65,7 @@ function CelebGrid(props: {
   height?: number;
   choiceHandler?: (selected: boolean[][], disabled: boolean[][]) => void;
   rowTitles?: string[];
+  seed?: { [key: string]: string };
 }) {
   const [selected, setSelected] = useState(
     Array.from(Array(props.rows), () => Array(props.columns).fill(false))
@@ -101,7 +101,7 @@ function CelebGrid(props: {
     setSelected(dummy);
 
     if (props.choiceHandler != null) {
-      const dummy = handleChoice(selected, props.choiceHandler)
+      const dummy = handleChoice(selected, props.choiceHandler);
       setDisabled(dummy);
     }
 
@@ -110,6 +110,10 @@ function CelebGrid(props: {
 
   function generateGrid() {
     const rows = [];
+    if (props.seed) {
+      rows.push(<CelebNote key="note" seed={props.seed} />);
+    }
+
     for (let i = 0; i < props.rows; i++) {
       const row = [];
       if (props.rowTitles) {
@@ -123,7 +127,7 @@ function CelebGrid(props: {
       }
       for (let j = 0; j < props.columns; j++) {
         const key = i * props.columns + j;
-        const celeb = key >= props.celebs.length ? "Blank" : props.celebs[key];
+        const celeb = key >= props.celebs.length ? "_Blank" : props.celebs[key];
         row.push(
           <CelebCard
             key={key}
@@ -131,8 +135,8 @@ function CelebGrid(props: {
             name={celeb}
             height={props.height}
             selected={selected[i][j]}
-            onClick={() => updateSelection(i, j)}
-            disabled={celeb === "Blank" ? true : disabled[i][j]}
+            onSelect={() => updateSelection(i, j)}
+            disabled={celeb === "_Blank" ? true : disabled[i][j]}
           ></CelebCard>
         );
       }

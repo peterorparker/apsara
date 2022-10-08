@@ -8,14 +8,14 @@ import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import * as React from "react";
 import { useState } from "react";
 import { Link, Route, useLocation } from "react-router-dom";
-import { CelebPerDay } from "../apps/desi/Weekly";
+import { Waterfall7x4 } from "../apps/desi/Weekly";
 
 const appPages = {
   Indian: {
     Weekly: {
-      "Pick a Celeb / Day": {
-        path: "/desi/weekly/celebperday",
-        element: <CelebPerDay />,
+      "Waterfall (7x4)": {
+        path: "/desi/weekly/waterfall7x4",
+        element: <Waterfall7x4 />,
       },
     },
   },
@@ -50,7 +50,6 @@ export function NavBar() {
   const location = useLocation();
 
   useEffect(() => {
-    console.log(titleMap[location.pathname], location.pathname, location);
     document.title = titleMap[location.pathname] || "Home";
   }, [location]);
 

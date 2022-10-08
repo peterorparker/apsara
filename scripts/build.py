@@ -11,7 +11,7 @@ def get_files(path, level=1):
         return {
             x.name: [str(y.relative_to(root_dir.parent)) for y in x.rglob("*")]
             for x in path.glob("*/")
-            if x.is_dir() and x.name.lower() != "blank"
+            if x.is_dir() and x.name.lower() != "_blank"
         }
     return {x.name: get_files(x, level + 1) for x in path.glob("*/") if x.is_dir()}
 
