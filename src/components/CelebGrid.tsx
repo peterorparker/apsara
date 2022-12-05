@@ -1,10 +1,16 @@
-import { Stack } from "@mui/material";
+import { Stack, Divider } from "@mui/material";
 import { useState } from "react";
 import CelebCard from "./CelebCard";
 import { CelebNote, Score, Title } from "./Text";
 import { handleChoice } from "../scripts/handlers";
 
 const spacing = 1.5;
+const dividerSize = 7;
+const divider = {
+  borderBottomWidth: dividerSize,
+  borderRightWidth: dividerSize,
+  backgroundColor: "lightblue",
+};
 
 function CelebGrid(props: {
   size: number[];
@@ -14,11 +20,14 @@ function CelebGrid(props: {
   choiceHandler?: (selected: boolean[][], disabled: boolean[][]) => void;
   rowTitles?: string[];
   seed?: { [key: string]: string };
+  splits?: number[];
 }) {
   const args = {
     ...props,
     rows: props.size[0],
     columns: props.size[1],
+    hSplits: props.splits ? props.splits[0] : 1,
+    vSplits: props.splits ? props.splits[1] : 1,
   };
 
   const [selected, setSelected] = useState(
@@ -69,6 +78,7 @@ function CelebGrid(props: {
       rows.push(<CelebNote key="note" seed={props.seed} />);
     }
 
+    let hCount = 0;
     for (let i = 0; i < args.rows; i++) {
       const row = [];
       if (props.rowTitles) {
@@ -80,6 +90,7 @@ function CelebGrid(props: {
           />
         );
       }
+      let vCount = 0;
       for (let j = 0; j < args.columns; j++) {
         const key = i * args.columns + j;
         const celeb = key >= props.celebs.length ? "_Blank" : props.celebs[key];
@@ -94,6 +105,12 @@ function CelebGrid(props: {
             disabled={celeb === "_Blank" ? true : disabled[i][j]}
           ></CelebCard>
         );
+
+        vCount++;
+        if (vCount == args.vSplits && j != args.columns - 1) {
+          row.push(<Divider orientation="vertical" flexItem sx={divider} />);
+          vCount = 0;
+        }
       }
       rows.push(
         <Stack
@@ -106,6 +123,11 @@ function CelebGrid(props: {
           {row}
         </Stack>
       );
+      hCount++;
+      if (hCount == args.hSplits && i != args.rows - 1) {
+        rows.push(<Divider sx={divider} variant="middle" />);
+        hCount = 0;
+      }
     }
     rows.push(<Score message={score} key="score" />);
 

@@ -31,6 +31,7 @@ export function Sudoku9x9() {
       seed={celebs.seed}
       height={250}
       choiceHandler={sudokuMega}
+      splits={[3, 3]}
     />
   );
 }
