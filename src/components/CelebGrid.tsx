@@ -2,64 +2,12 @@ import { Stack } from "@mui/material";
 import { useState } from "react";
 import CelebCard from "./CelebCard";
 import { CelebNote, Score, Title } from "./Text";
+import { handleChoice } from "../scripts/handlers";
 
 const spacing = 1.5;
 
-function sudokuDisable(disabled: boolean[][], row: number, column: number) {
-  for (let i = 0; i < disabled.length; i++) {
-    for (let j = 0; j < disabled[i].length; j++) {
-      if (i === row || j === column) {
-        if (!(i === row && j === column)) {
-          disabled[i][j] = true;
-        }
-      }
-    }
-  }
-}
-
-export function sudoku(selected: boolean[][], disabled: boolean[][]) {
-  for (let i = 0; i < selected.length; i++) {
-    for (let j = 0; j < selected[i].length; j++) {
-      if (selected[i][j]) sudokuDisable(disabled, i, j);
-    }
-  }
-}
-
-export function diagonal(selected: boolean[][], disabled: boolean[][]) {
-  for (let i = 0; i < selected.length - 1; i++) {
-    if (selected[i].every((x) => !x)) {
-      for (let j = 0; j < selected[i].length; j++) {
-        disabled[i + 1][j] = true;
-      }
-    } else {
-      for (let j = 0; j < selected[i].length; j++) {
-        if (!selected[i][j]) disabled[i][j] = true;
-        else {
-          const ids = [j - 1, j, j + 1];
-          for (let k = 0; k < selected[i].length; k++)
-            if (!ids.includes(k)) {
-              disabled[i + 1][k] = true;
-            }
-        }
-      }
-    }
-  }
-}
-
-function handleChoice(
-  selected: boolean[][],
-  handler?: (selected: boolean[][], disabled: boolean[][]) => void
-) {
-  const disabled = Array.from(Array(selected.length), () =>
-    Array(selected[0].length).fill(false)
-  );
-  if (handler) handler(selected, disabled);
-  return disabled;
-}
-
 function CelebGrid(props: {
-  rows: number;
-  columns: number;
+  size: number[];
   group: string;
   celebs: string[];
   height?: number;
@@ -67,8 +15,14 @@ function CelebGrid(props: {
   rowTitles?: string[];
   seed?: { [key: string]: string };
 }) {
+  const args = {
+    ...props,
+    rows: props.size[0],
+    columns: props.size[1],
+  };
+
   const [selected, setSelected] = useState(
-    Array.from(Array(props.rows), () => Array(props.columns).fill(false))
+    Array.from(Array(args.rows), () => Array(args.columns).fill(false))
   );
 
   const [disabled, setDisabled] = useState(
@@ -82,7 +36,7 @@ function CelebGrid(props: {
     for (let i = 0; i < selected.length; i++) {
       const items = [];
       for (let j = 0; j < selected[i].length; j++) {
-        if (selected[i][j]) items.push(props.celebs[i * props.columns + j]);
+        if (selected[i][j]) items.push(props.celebs[i * args.columns + j]);
       }
       if (items.length) {
         let msg = "";
@@ -110,11 +64,12 @@ function CelebGrid(props: {
 
   function generateGrid() {
     const rows = [];
+
     if (props.seed) {
       rows.push(<CelebNote key="note" seed={props.seed} />);
     }
 
-    for (let i = 0; i < props.rows; i++) {
+    for (let i = 0; i < args.rows; i++) {
       const row = [];
       if (props.rowTitles) {
         row.push(
@@ -125,8 +80,8 @@ function CelebGrid(props: {
           />
         );
       }
-      for (let j = 0; j < props.columns; j++) {
-        const key = i * props.columns + j;
+      for (let j = 0; j < args.columns; j++) {
+        const key = i * args.columns + j;
         const celeb = key >= props.celebs.length ? "_Blank" : props.celebs[key];
         row.push(
           <CelebCard

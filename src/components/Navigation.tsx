@@ -8,7 +8,7 @@ import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import * as React from "react";
 import { useState } from "react";
 import { Link, Route, useLocation } from "react-router-dom";
-import { Waterfall7x4 } from "../apps/desi/Weekly";
+import { Sudoku9x9, Waterfall7x4 } from "../apps/desi/Weekly";
 
 const appPages = {
   Indian: {
@@ -16,6 +16,10 @@ const appPages = {
       "Waterfall (7x4)": {
         path: "/desi/weekly/waterfall7x4",
         element: <Waterfall7x4 />,
+      },
+      "Sudoku (9x9)": {
+        path: "/desi/weekly/sudoku9x9",
+        element: <Sudoku9x9 />,
       },
     },
   },

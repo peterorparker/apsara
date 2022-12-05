@@ -2,18 +2,20 @@
   "counts": {
     "desi": {
       "Pooja Hegde": 29,
-      "Kiara Advani": 23,
+      "Kiara Advani": 25,
       "Mukti Mohan": 23,
       "Ananya Panday": 23,
       "Neha Sharma": 22,
       "Disha Patani": 21,
       "Kriti Sanon": 20,
-      "Ileana D'Cruz": 16,
+      "Kajal Aggarwal": 19,
+      "Ileana D'Cruz": 17,
+      "Anushka Shetty": 17,
       "Nushrat Bharucha": 16,
-      "Kajal Aggarwal": 15,
       "Karishma Tanna": 13,
       "Shirley Setia": 13,
       "Rakul Preet Singh": 13,
+      "Priyanka Jawalkar": 12,
       "Tara Sutaria": 12,
       "Shweta Tiwari": 12,
       "Anushka Sharma": 11,
@@ -27,6 +29,7 @@
       "Raima Sen": 9,
       "Anaika Soti": 9,
       "Pragya Jaiswal": 9,
+      "Regina Cassandra": 9,
       "Sara Ali Khan": 8,
       "Samantha": 8,
       "Jacqueline Fernandez": 8,
@@ -35,7 +38,6 @@
       "Radhika Madan": 7,
       "Rhea Chakraborty": 7,
       "Sonal Chauhan": 7,
-      "Anushka Shetty": 6,
       "Tanya Sharma": 6,
       "Mrunal Thakur": 5,
       "Alia Bhatt": 5,
@@ -44,10 +46,10 @@
       "Tanya Ravichandran": 5,
       "Shriya Saran": 5,
       "Tamanna": 5,
+      "Wamiqa Gabbi": 5,
       "Catherine Tresa": 5,
       "Malavika Mohanan": 4,
       "Deepika Padukone": 4,
-      "Priyanka Jawalkar": 4,
       "Radhika Seth": 4,
       "Raashi Khanna": 4,
       "Simrat Kaur": 3,
@@ -88,7 +90,8 @@
       "Sanjeeda Sheikh": 1,
       "Chitrangada Singh": 1,
       "Priyanka Chopra": 1,
-      "Manushi Chhillar": 1
+      "Manushi Chhillar": 1,
+      "_Blank": 1
     },
     "global": {
       "Kristen Stewart": 31,
@@ -150,7 +153,8 @@
       "Morena Baccarin": 1,
       "Kirsten Dunst": 1,
       "Hunter King": 1,
-      "Camilla Belle": 1
+      "Camilla Belle": 1,
+      "_Blank": 1
     }
   },
   "files": {
@@ -198,11 +202,15 @@
         "celebs/desi/Kajal Aggarwal/i3wjxiea6t551.webp",
         "celebs/desi/Kajal Aggarwal/5c0647ba01a5e.webp",
         "celebs/desi/Kajal Aggarwal/DpoVRisUwAAPuY-.webp",
+        "celebs/desi/Kajal Aggarwal/2kDpyeOLC-ygDQOoMNc6ViQp80IpgZcg0cwk0VP-O60.webp",
         "celebs/desi/Kajal Aggarwal/DeOHBp4V0AA8Dsp.webp",
+        "celebs/desi/Kajal Aggarwal/0solbtBshwgSYMznxg9hB_rm6IcMMbPtqnNYHQ1lv04.webp",
         "celebs/desi/Kajal Aggarwal/1oBuufE.webp",
         "celebs/desi/Kajal Aggarwal/kajal-agarwalhd-wallpapers-desktop-background-android-iphone-1080p-4k-xhduo.webp",
+        "celebs/desi/Kajal Aggarwal/6b6ciqnrrd271.webp",
         "celebs/desi/Kajal Aggarwal/D8ELZ5CU0AA--i6.webp",
         "celebs/desi/Kajal Aggarwal/0td77cv44g551.webp",
+        "celebs/desi/Kajal Aggarwal/pnenyn72dsa91.webp",
         "celebs/desi/Kajal Aggarwal/Kajal-KA-13.webp",
         "celebs/desi/Kajal Aggarwal/EEO3sWRVUAAJ59N.webp"
       ],
@@ -250,6 +258,7 @@
         "celebs/desi/Ileana D'Cruz/ileana-6.webp",
         "celebs/desi/Ileana D'Cruz/FPzd7O3X0AEk_m8.webp",
         "celebs/desi/Ileana D'Cruz/66036959_677685096028098_7541461252472664728_n.webp",
+        "celebs/desi/Ileana D'Cruz/f5ch15u2e4t91.webp",
         "celebs/desi/Ileana D'Cruz/7txdh75mkd961.webp",
         "celebs/desi/Ileana D'Cruz/mrehfrq746skzb8ct61.webp",
         "celebs/desi/Ileana D'Cruz/EnBnGzJVgAIl4cr.webp",
@@ -499,12 +508,23 @@
         "celebs/desi/Tridha Choudhury/8mttjwsnli581.webp"
       ],
       "Anushka Shetty": [
+        "celebs/desi/Anushka Shetty/EgXHwhGXsAAApOo.webp",
+        "celebs/desi/Anushka Shetty/FIi6igdVcAIatlY.webp",
+        "celebs/desi/Anushka Shetty/18b0f769c74d9b82f518c2d5db829c4e.webp",
+        "celebs/desi/Anushka Shetty/4n7w3bkcfft71.webp",
         "celebs/desi/Anushka Shetty/Anushka-shetty-hot-new-photo-wallpaper-free.webp",
+        "celebs/desi/Anushka Shetty/E9H3yNHVgAYCUHv.webp",
         "celebs/desi/Anushka Shetty/47.webp",
+        "celebs/desi/Anushka Shetty/Anushka- = (3).webp",
+        "celebs/desi/Anushka Shetty/44132378724_91dd6785b8_b.webp",
+        "celebs/desi/Anushka Shetty/EgXHszDX0AIl97k.webp",
         "celebs/desi/Anushka Shetty/4.webp",
         "celebs/desi/Anushka Shetty/FDjTcB0VcAIjM7v.webp",
         "celebs/desi/Anushka Shetty/fjk84mhlis751.webp",
-        "celebs/desi/Anushka Shetty/uv1awbo042551.webp"
+        "celebs/desi/Anushka Shetty/uv1awbo042551.webp",
+        "celebs/desi/Anushka Shetty/C4IUM9WWQAMgxrw.webp",
+        "celebs/desi/Anushka Shetty/caumsn1az3891.webp",
+        "celebs/desi/Anushka Shetty/b9333-anushkashetty5bactresshdgallery-blogspot-in5d14.webp"
       ],
       "Parineeti Chopra": [
         "celebs/desi/Parineeti Chopra/U0UDRmnAYxZNBxeVS.webp",
@@ -525,10 +545,18 @@
         "celebs/desi/Jacqueline Fernandez/TLCNAg5fMzP4S_igTpHrW857HXiEQnfHkq5hkdELVFA.webp"
       ],
       "Priyanka Jawalkar": [
+        "celebs/desi/Priyanka Jawalkar/zwq68hR.webp",
+        "celebs/desi/Priyanka Jawalkar/6R3B9897_1600x1067-e1542105602160.webp",
         "celebs/desi/Priyanka Jawalkar/73324145_264583871167710_389169918625836451_n.webp",
+        "celebs/desi/Priyanka Jawalkar/xy_7JLMh64Dv2CsxMVT8YnxEDztu7_RAWWHzJXVk3Fo.webp",
+        "celebs/desi/Priyanka Jawalkar/Priyanka-Jawalkar7000x4667.webp",
         "celebs/desi/Priyanka Jawalkar/y6pbclgxmo551.webp",
+        "celebs/desi/Priyanka Jawalkar/hdxpmhuc0cy71.webp",
+        "celebs/desi/Priyanka Jawalkar/tcCcYfykXiCXvH-NjJ2plcwRSCedqr5wFSjEXKYsX8s.webp",
         "celebs/desi/Priyanka Jawalkar/DyisDXTV4AE2Bdk.webp",
-        "celebs/desi/Priyanka Jawalkar/ugt2imf4nj251.webp"
+        "celebs/desi/Priyanka Jawalkar/ugt2imf4nj251.webp",
+        "celebs/desi/Priyanka Jawalkar/Dzh2tTxX4BYoCPh.webp",
+        "celebs/desi/Priyanka Jawalkar/WRxC_hRDtP4AfTjvzCys7gHZWWa99NlZLbfgbpAX7Ao.webp"
       ],
       "Tara Sutaria": [
         "celebs/desi/Tara Sutaria/4cr9a6j53bo61.webp",
@@ -543,6 +571,17 @@
         "celebs/desi/Tara Sutaria/p6rt53jqwic61.webp",
         "celebs/desi/Tara Sutaria/Tara-S-1-WM.webp",
         "celebs/desi/Tara Sutaria/rb1ubbc47mn61.webp"
+      ],
+      "Regina Cassandra": [
+        "celebs/desi/Regina Cassandra/Regina Cassandra New Photos (12).webp",
+        "celebs/desi/Regina Cassandra/uXgADIVguinE0w4Hv3gfuH5biWSJGFIxTVxZiI9_qW4.webp",
+        "celebs/desi/Regina Cassandra/2PiYK8AbSJWbJayVLGCmHVxGkzxwVMzegJQFPb3r_rA.webp",
+        "celebs/desi/Regina Cassandra/zfgCPoaXLOy7h1AFMRFQasrzcZVo0xAawlM0suS5GPE.webp",
+        "celebs/desi/Regina Cassandra/regina-cassandra-c7bvwxhk7b.webp",
+        "celebs/desi/Regina Cassandra/r1--Zxes58WvhBdqSLad-SI5qLO1reoFVgITW3mM5hk.webp",
+        "celebs/desi/Regina Cassandra/wmdv2zbskyx71.webp",
+        "celebs/desi/Regina Cassandra/36609904_221334905152747_6146808884519501824_n.webp",
+        "celebs/desi/Regina Cassandra/2u0xorizwma61.webp"
       ],
       "Amyra Dastur": [
         "celebs/desi/Amyra Dastur/Amyra-Dastur.webp",
@@ -622,12 +661,14 @@
         "celebs/desi/Kiara Advani/g7stfadyweq71.webp",
         "celebs/desi/Kiara Advani/0547a656002f77764b08407ff8711e9d.webp",
         "celebs/desi/Kiara Advani/Kiara-Advani-at-filmfare-glamour-and-style-awards-2019-1-1200x1500.webp",
+        "celebs/desi/Kiara Advani/32b1ucrkfpu91.webp",
         "celebs/desi/Kiara Advani/6du5quljspv41.webp",
         "celebs/desi/Kiara Advani/ygTp7QTlDiZ6u-nI9xYGmpID4sihBHaPtoCKDgFfv24.webp",
         "celebs/desi/Kiara Advani/qyn4a2f378a51.webp",
         "celebs/desi/Kiara Advani/1gzXhiSqIkZXgvowO9bfLEL7TrVlTDUnM-IQG32efHM.webp",
         "celebs/desi/Kiara Advani/b2ea21nmox161.webp",
         "celebs/desi/Kiara Advani/r3smzelhu1051.webp",
+        "celebs/desi/Kiara Advani/1xWKXLJVMYbJ__jclzgHfMhcYYR4lwrHoMQl2BLXkI4.webp",
         "celebs/desi/Kiara Advani/girl_model_kiara_advani_is_wearing_flower_embroidered_dress_4k_hd_girls-1440x2560.webp",
         "celebs/desi/Kiara Advani/LXDEai9JqZF6dRoFE9X8bvUoh-YNgaxSQQHatjwIbpQ.webp",
         "celebs/desi/Kiara Advani/image_widget_408ct126bv991.webp",
@@ -839,6 +880,9 @@
         "celebs/desi/Sanya Malhotra/x24wigP4o4RxI9tAti9zK2DzH53WsccL-yVG0AcDCyc.webp",
         "celebs/desi/Sanya Malhotra/pcofr5dsfyo61.webp"
       ],
+      "_Blank": [
+        "celebs/desi/_Blank/blank.jpg"
+      ],
       "Shirley Setia": [
         "celebs/desi/Shirley Setia/Shirley-S.webp",
         "celebs/desi/Shirley Setia/EhtvRwJU0AAHjla.webp",
@@ -875,6 +919,13 @@
         "celebs/desi/Kriti Sanon/fe1FD9qZmtyXg2jMBBIRGZ-zS3Qwcull4Fts4AlVTCA.webp",
         "celebs/desi/Kriti Sanon/s1dpPJEcmXIHWoxuQ_wCQVQIxVfjyFNJFqCcTXwEpAU.webp",
         "celebs/desi/Kriti Sanon/wSaq7qamjCwKVLnzBs5F81IIr8FqKJt9U_IykUnsezE.webp"
+      ],
+      "Wamiqa Gabbi": [
+        "celebs/desi/Wamiqa Gabbi/FP_ljCsaIAQmkud.webp",
+        "celebs/desi/Wamiqa Gabbi/Wamiqa-Gabbi-Cute-Pics.webp",
+        "celebs/desi/Wamiqa Gabbi/0c171d42112eecd18153aab531d15667.webp",
+        "celebs/desi/Wamiqa Gabbi/e5be1ee7b59e7ae46f3036317d3af9f7.webp",
+        "celebs/desi/Wamiqa Gabbi/DML1FIRXcAMSxsl.webp"
       ],
       "Catherine Tresa": [
         "celebs/desi/Catherine Tresa/KLwkDfGfSZXpBax8qKsgHUw1YF4sAnPgm3LReDXb7eU.webp",
@@ -1343,6 +1394,9 @@
         "celebs/global/Mila Kunis/dad3dfc9822f0d2d128846fd51e5f2a6.webp",
         "celebs/global/Mila Kunis/wp2467656.webp",
         "celebs/global/Mila Kunis/o9zzubxz8tj11.webp"
+      ],
+      "_Blank": [
+        "celebs/global/_Blank/blank.jpg"
       ],
       "Daisey Ridley": [
         "celebs/global/Daisey Ridley/ptdqtq8u8hk41.webp",

@@ -1,19 +1,36 @@
-import CelebGrid, { diagonal } from "../../components/CelebGrid";
+import CelebGrid from "../../components/CelebGrid";
+import { diagonal, sudokuMega } from "../../scripts/handlers";
 import { days, randomCelebs } from "../../scripts/utils";
 
-const celebs28 = randomCelebs("weekly", "desi", 28);
-
 export function Waterfall7x4() {
+  const size = [7, 4];
+  const celebs = randomCelebs("weekly", "desi", size);
+
   return (
     <CelebGrid
-      rows={7}
-      columns={4}
+      size={size}
       group="desi"
-      celebs={celebs28.names}
-      seed={celebs28.seed}
+      celebs={celebs.names}
+      seed={celebs.seed}
       height={300}
       choiceHandler={diagonal}
       rowTitles={days}
+    />
+  );
+}
+
+export function Sudoku9x9() {
+  const size = [9, 9];
+  const celebs = randomCelebs("weekly", "desi", size);
+
+  return (
+    <CelebGrid
+      size={size}
+      group="desi"
+      celebs={celebs.names}
+      seed={celebs.seed}
+      height={250}
+      choiceHandler={sudokuMega}
     />
   );
 }
