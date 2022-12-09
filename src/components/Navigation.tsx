@@ -12,17 +12,17 @@ import { Sudoku9x9, Waterfall7x4 } from "../apps/desi/Weekly";
 
 const appPages = {
   Indian: {
-    Weekly: {
-      "Waterfall (7x4)": {
-        path: "/desi/weekly/waterfall7x4",
-        element: <Waterfall7x4 />,
-      },
-      "Sudoku (9x9)": {
-        path: "/desi/weekly/sudoku9x9",
-        element: <Sudoku9x9 />,
-      },
+    // Weekly: {
+    "Weekly Waterfall (7x4)": {
+      path: "/desi/weekly/waterfall7x4",
+      element: <Waterfall7x4 />,
+    },
+    "Weekly Sudoku (9x9)": {
+      path: "/desi/weekly/sudoku9x9",
+      element: <Sudoku9x9 />,
     },
   },
+  // }
 };
 
 const externalPages: { [key: string]: string } = {

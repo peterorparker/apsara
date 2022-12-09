@@ -26,8 +26,8 @@ function CelebGrid(props: {
     ...props,
     rows: props.size[0],
     columns: props.size[1],
-    hSplits: props.splits ? props.splits[0] : 1,
-    vSplits: props.splits ? props.splits[1] : 1,
+    hSplits: props.size[0] / (props.splits ? props.splits[0] : 1),
+    vSplits: props.size[1] / (props.splits ? props.splits[1] : 1),
   };
 
   const [selected, setSelected] = useState(
