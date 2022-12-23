@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/apsara/static/css/main.84c6380d.css",
+    "main.js": "/apsara/static/js/main.bf479b29.js",
+    "index.html": "/apsara/index.html",
+    "main.84c6380d.css.map": "/apsara/static/css/main.84c6380d.css.map",
+    "main.bf479b29.js.map": "/apsara/static/js/main.bf479b29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84c6380d.css",
+    "static/js/main.bf479b29.js"
+  ]
+}
