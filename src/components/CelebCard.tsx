@@ -7,7 +7,7 @@ import {
   CardMedia,
   IconButton,
 } from "@mui/material";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getRandomImage } from "../scripts/utils";
 
 const padValue = 0.8;
@@ -66,6 +66,10 @@ function CelebCard(props: {
 
   const [image, setImage] = useState(getRandomImage(props.group, props.name));
   const updateImage = () => setImage(getRandomImage(props.group, props.name));
+
+  useEffect(() => {
+    updateImage();
+  }, [props.name]);
 
   return (
     <Card
