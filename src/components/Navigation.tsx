@@ -8,18 +8,30 @@ import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import * as React from "react";
 import { useState } from "react";
 import { Link, Route, useLocation } from "react-router-dom";
-import { Sudoku9x9, Waterfall7x4 } from "../apps/desi/Weekly";
+import { Sudoku9x9, Waterfall7x4 } from "../apps/Weekly";
 
 const appPages = {
   Indian: {
     // Weekly: {
     "Weekly Waterfall (7x4)": {
       path: "/desi/weekly/waterfall7x4",
-      element: <Waterfall7x4 />,
+      element: <Waterfall7x4 group="desi"/>,
     },
     "Weekly Sudoku (9x9)": {
       path: "/desi/weekly/sudoku9x9",
-      element: <Sudoku9x9 />,
+      element: <Sudoku9x9 group="desi"/>,
+    },
+  },
+
+  Global: {
+    // Weekly: {
+    "Weekly Waterfall (7x4)": {
+      path: "/global/weekly/waterfall7x4",
+      element: <Waterfall7x4 group="global"/>,
+    },
+    "Weekly Sudoku (9x9)": {
+      path: "/global/weekly/sudoku9x9",
+      element: <Sudoku9x9 group="global"/>,
     },
   },
   // }
